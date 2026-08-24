@@ -13,12 +13,8 @@ citation: "Lin, D., & Wachter, S. M. (2020). Land use regulation, regulatory spi
 links:
   - label: "SSRN"
     url: "https://papers.ssrn.com/abstract=3363947"
-abstract: >-
-  Using California housing sales and a spatial-equilibrium model, this paper estimates
-  how local land-use regulation affects housing prices directly through lower housing
-  productivity and indirectly through household relocation across jurisdictions. It
-  finds economically meaningful regulatory spillovers and shows that ignoring
-  restrictions in surrounding locations can misstate local price effects.
+abstract: |
+  This paper studies how local land-use regulation affects housing prices both within a jurisdiction and through neighboring markets. Combining California housing transactions with regulatory measures, it develops a spatial-equilibrium framework that separates the direct productivity effect of regulation from relocation spillovers created when households and development shift across boundaries. The estimates reveal economically meaningful cross-jurisdiction effects: restrictions in nearby communities can raise local demand and prices, while local restrictions redirect activity elsewhere. Analyses that ignore surrounding regulation can therefore misstate both the magnitude and distribution of policy effects.
 presentations:
   - label: "Annual PhD Conference on Real Estate and Housing, Ohio State University, Columbus, OH, 2019"
   - label: "AREUEA National Meeting, Washington, D.C., 2019"
