@@ -11,13 +11,8 @@ links:
     url: "https://www.desenlin.com/_files/ugd/c836e6_bbdd6f5f7e7a4067b6d2b7d1490bd624.pdf"
   - label: "SSRN"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3367554"
-abstract: >-
-  This paper documents rising mortgage delinquency alongside falling mortgage spreads
-  before the Great Recession. A dynamic general-equilibrium model with borrowers,
-  depositors, and constrained intermediaries decomposes the spread into liquidity and
-  default components. The analysis indicates that relaxed intermediary lending
-  constraints can explain simultaneous growth in mortgage credit and declining spreads,
-  while intermediary leverage amplifies boom-bust dynamics.
+abstract: |
+  This paper explains why mortgage delinquency rose while mortgage spreads fell during the housing boom. It develops a dynamic general-equilibrium model with borrowers, depositors, and financially constrained intermediaries, and decomposes mortgage spreads into liquidity and default-risk components. Relaxing intermediaries' financing constraints expands credit supply and compresses spreads even as borrower leverage and default risk increase. Quantitative results show that this mechanism can account for key features of the boom and amplify the subsequent bust, linking intermediary balance-sheet conditions to both mortgage pricing and housing-market volatility.
 presentations:
   - label: "Midwest Macroeconomics Meetings, Nashville, TN, 2018"
   - label: "13th Annual Economics Graduate Students Conference, Washington University in St. Louis, St. Louis, MO, 2018"
