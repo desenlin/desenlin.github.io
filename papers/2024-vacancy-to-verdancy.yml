@@ -3,7 +3,8 @@ year: 2024
 category: "publication"
 venue: { name: "Real Estate Economics", url: "https://doi.org/10.1111/1540-6229.12487" }
 citation: "Lin, D. (2024). From vacancy to verdancy? The impact of land options on the timing of vacant lot investment. Real Estate Economics, 52(5), 1263–1307. https://doi.org/10.1111/1540-6229.12487"
-abstract: "The complete published abstract will be imported during the full content migration."
+abstract: |
+  This study examines how real-options forces affect the timing of two investments in vacant land: housing development and greening. Using Philadelphia's vacant-land interventions in a quasi-experimental duration framework, it tests whether price uncertainty delays irreversible housing investment and whether expected price growth accelerates it. Both patterns appear for housing development, consistent with real-options theory, but not for greening. Greening therefore operates differently from private redevelopment and can accelerate investment where uncertainty is high, growth is subdued, incomes are moderately lower, and vacancy is elevated.
 links:
   - { label: "Journal", url: "https://doi.org/10.1111/1540-6229.12487" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4754323" }
