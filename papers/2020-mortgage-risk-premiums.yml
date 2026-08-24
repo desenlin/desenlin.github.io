@@ -7,7 +7,7 @@ authors:
 venue: { name: "Journal of Real Estate Finance and Economics", url: "https://doi.org/10.1007/s11146-018-9682-z" }
 citation: "Levitin, A. J., Lin, D., & Wachter, S. M. (2020). Mortgage risk premiums during the housing bubble. Journal of Real Estate Finance and Economics, 60(4), 421–468. https://doi.org/10.1007/s11146-018-9682-z"
 abstract: |
-  Using private-label securitized mortgage data, the paper documents declining credit spreads conditional on loan and borrower characteristics before the financial crisis. Observable risk factors had less influence on pricing as lending expanded and terms eased.
+  Why did mortgage pricing become less responsive to risk during the housing boom? Using private-label securitized mortgages, this study decomposes changes in mortgage spreads and examines how pricing varied with borrower and loan characteristics. The decline in spreads was concentrated among refinance loans and accompanied the expansion of nontraditional mortgage products. Credit scores and loan-to-value ratios became less influential in pricing even as underwriting weakened. The results indicate that the precrisis compression of mortgage risk premiums reflected both changing product composition and diminished sensitivity to observable credit risk.
 links:
   - { label: "Paper", url: "https://www.desenlin.com/_files/ugd/c836e6_b813051d1ba0462c8b4bf5859a3f68aa.pdf" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3086314" }
