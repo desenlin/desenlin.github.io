@@ -62,8 +62,9 @@ a { color: var(--navy); text-underline-offset: 4px; }
 .abstract-disclosure { max-width: 900px; margin-top: 14px; border-left: 3px solid var(--orange); background: var(--warm); }
 .abstract-disclosure summary { cursor: pointer; padding: 10px 16px; color: var(--navy); font-size: .86rem; font-weight: 800; }
 .abstract-disclosure p { margin: 0; padding: 0 16px 16px; color: #445067; font-size: .92rem; }
-.paper-meta { display: grid; grid-template-columns: 112px 1fr; gap: 18px; max-width: 940px; margin-top: 14px; color: var(--muted); font-size: .84rem; }
-.paper-meta strong { color: var(--navy); }
+.paper-meta { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 18px; align-items: start; max-width: 940px; margin-top: 14px; color: var(--muted); font-size: .84rem; }
+.paper-meta-label { color: var(--navy); font-weight: 800; }
+.paper-meta-items { min-width: 0; line-height: 1.65; }
 .course-grid { grid-template-columns: 1fr 1fr; gap: 22px; }
 .course-card { border-top: 4px solid var(--orange); }
 .button-link { display: inline-block; margin: 20px 0; padding: 12px 18px; background: var(--navy); color: white; font-weight: 800; text-decoration: none; }
