@@ -7,7 +7,7 @@ authors:
 venue: { name: "Cityscape", url: "https://www.huduser.gov/portal/periodicals/cityscpe/vol21num1/article1.html" }
 citation: "Acolin, A., Lin, D., & Wachter, S. M. (2019). Endowments and minority homeownership. Cityscape, 21(1), 5–62."
 abstract: |
-  Using the 1989, 2005, and 2013 American Housing Surveys, the study examines how differences in household endowments account for persistently low Black and Hispanic homeownership rates.
+  Black and Hispanic homeownership rates remain persistently below White rates despite fair-housing protections. Using the 1989, 2005, and 2013 American Housing Surveys, this study measures how differences in household endowments contribute to these gaps at distinct points in the housing cycle. It evaluates the roles of demographic, economic, and housing-market characteristics and compares the explained and unexplained portions across groups and years. Household resources account for part, but not all, of minority homeownership shortfalls, highlighting the continued importance of barriers beyond observed endowments.
 links:
   - { label: "Journal", url: "https://www.huduser.gov/portal/periodicals/cityscpe/vol21num1/article1.html" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3269089" }
