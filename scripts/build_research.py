@@ -97,6 +97,12 @@ def render_paper(paper: dict, citation_id: str) -> list[str]:
     lines.extend(["", f'### {paper["title"]}', ""])
     authors = paper.get("authors") or []
     venue = paper.get("venue")
+    venue_name = venue.get("name") if isinstance(venue, dict) else venue
+    if (
+        paper.get("category") == "working-paper"
+        and str(venue_name or "").strip().casefold() == "ssrn electronic journal"
+    ):
+        venue = None
     if authors:
         lines.extend(
             [f'<p class="paper-authors">with {render_authors(authors)}</p>', ""]
