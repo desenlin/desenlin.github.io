@@ -5,3 +5,5 @@ status: "Working paper"
 authors:
   - { name: "HanNa Lim", affiliation: "California State University, Fullerton", url: "https://business.fullerton.edu/academics/finance/financial-planning/faculty" }
 citation: "Lin, D., & Lim, H. (2026). Rental market conditions and housing choice: Evidence from near-campus housing markets [Working paper]."
+abstract: |
+  This paper examines how near-campus rental-market conditions are associated with college students' living arrangements. It links the 2020 Study on Collegiate Financial Wellness to IPEDS, ACS, and CoStar measures for roughly 50 universities, distinguishing on-campus housing, living with parents, and off-campus living alone or with roommates. Multinomial-choice models relate these outcomes to rent-to-income ratios and nearby rental supply within walking and driving catchments. Higher off-campus rent burdens are associated with lower off-campus residence, while greater nearby supply increases it; market conditions also shape whether students share housing. The findings connect local rental affordability and supply to students' residential constraints before the COVID-19 disruption.
