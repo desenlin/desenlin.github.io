@@ -23,14 +23,22 @@ I am a **real estate economist** studying how housing markets, real estate finan
 :::
 :::
 
-::: {.contact-band}
+:::: {.contact-band}
+<div class="contact-heading">
 <p class="eyebrow">Contact</p>
+</div>
 
-## Department of Finance
+::: {.contact-grid}
+<div class="contact-affiliation">
+<p class="contact-title">Department of Finance</p>
+<p>College of Business and Economics<br>
+California State University, Fullerton</p>
+</div>
 
-College of Business and Economics<br>
-California State University, Fullerton  
-[desenlin@fullerton.edu](mailto:desenlin@fullerton.edu)  
-800 N. State College Blvd., SGMH 5178  
-Fullerton, California 92831
+<div class="contact-address">
+<p><a href="mailto:desenlin@fullerton.edu">desenlin@fullerton.edu</a><br>
+800 N. State College Blvd., SGMH 5178<br>
+Fullerton, California 92831</p>
+</div>
 :::
+::::
