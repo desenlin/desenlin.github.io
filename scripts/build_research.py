@@ -81,8 +81,8 @@ def render_list(label: str, values: list[dict | str] | None) -> list[str]:
         return []
     return [
         '<div class="paper-meta">',
-        f"<strong>{esc(label)}</strong>",
-        f"<span>{' · '.join(render_link(value) for value in values)}</span>",
+        f'<div class="paper-meta-label">{esc(label)}</div>',
+        f'<div class="paper-meta-items">{" · ".join(render_link(value) for value in values)}</div>',
         "</div>",
     ]
 
