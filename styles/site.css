@@ -68,10 +68,10 @@ a { color: var(--navy); text-underline-offset: 4px; }
 .citation-dialog h4 { margin: 0; color: var(--deep); font-family: Georgia, "Times New Roman", serif; font-size: 1.35rem; }
 .citation-dialog p { margin: 18px 0 0; color: #445067; font-size: .95rem; }
 .citation-close { padding: 0 4px; border: 0; background: transparent; color: var(--navy); cursor: pointer; font-size: 1.8rem; line-height: 1; }
-.abstract-disclosure { max-width: 900px; margin-top: 14px; border-left: 3px solid var(--orange); background: var(--warm); }
+.abstract-disclosure { width: 100%; max-width: none; margin-top: 14px; border-left: 3px solid var(--orange); background: var(--warm); }
 .abstract-disclosure summary { cursor: pointer; padding: 10px 16px; color: var(--navy); font-size: .86rem; font-weight: 800; }
 .abstract-disclosure p { margin: 0; padding: 0 16px 16px; color: #445067; font-size: .92rem; }
-.paper-meta { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 18px; align-items: start; max-width: 940px; margin-top: 14px; color: var(--muted); font-size: .84rem; }
+.paper-meta { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 18px; align-items: start; width: 100%; max-width: none; margin-top: 14px; color: var(--muted); font-size: .84rem; }
 .paper-meta-label { color: var(--navy); font-weight: 800; }
 .paper-meta-items { min-width: 0; line-height: 1.65; }
 .course-grid { grid-template-columns: 1fr 1fr; gap: 22px; }
