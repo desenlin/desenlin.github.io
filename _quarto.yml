@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: python scripts/build_research.py
+
+website:
+  title: "Desen Lin"
+  site-url: "https://www.desenlin.com"
+  description: "Academic website of Desen Lin, real estate economist and Associate Professor of Finance, California State University, Fullerton."
+  navbar:
+    logo: images/csuf-emblem.jpg
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: CV
+        href: cv.qmd
+  page-footer:
+    left: "© Desen Lin"
+    right:
+      - text: Photography
+        href: photos.qmd
+      - text: Email
+        href: mailto:desenlin@fullerton.edu
+  open-graph: true
+  twitter-card: true
+  search: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles/site.css
+    toc: false
+    smooth-scroll: true
+
+execute:
+  freeze: auto

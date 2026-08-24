@@ -1,0 +1,16 @@
+title: "Mortgage Risk Premiums during the Housing Bubble"
+year: 2020
+category: "publication"
+authors:
+  - { name: "Adam Levitin", affiliation: "Georgetown University", url: "https://www.law.georgetown.edu/faculty/adam-j-levitin/" }
+  - { name: "Susan Wachter", affiliation: "University of Pennsylvania", url: "https://real-estate.wharton.upenn.edu/profile/wachter/" }
+venue: { name: "Journal of Real Estate Finance and Economics", url: "https://doi.org/10.1007/s11146-018-9682-z" }
+citation: "Levitin, A. J., Lin, D., & Wachter, S. M. (2020). Mortgage risk premiums during the housing bubble. Journal of Real Estate Finance and Economics, 60(4), 421–468. https://doi.org/10.1007/s11146-018-9682-z"
+abstract: |
+  Using private-label securitized mortgage data, the paper documents declining credit spreads conditional on loan and borrower characteristics before the financial crisis. Observable risk factors had less influence on pricing as lending expanded and terms eased.
+links:
+  - { label: "Paper", url: "https://www.desenlin.com/_files/ugd/c836e6_b813051d1ba0462c8b4bf5859a3f68aa.pdf" }
+  - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3086314" }
+  - { label: "Research Summary", url: "https://www.desenlin.com/llw20" }
+presentations:
+  - { label: "AREUEA National Meeting, Washington, D.C., 2018" }

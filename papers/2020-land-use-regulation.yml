@@ -1,0 +1,28 @@
+title: "Land Use Regulation, Regulatory Spillover and Housing Prices"
+year: 2020
+category: "working-paper"
+status: "Working paper"
+authors:
+  - name: "Susan Wachter"
+    affiliation: "University of Pennsylvania"
+    url: "https://real-estate.wharton.upenn.edu/profile/wachter/"
+venue:
+  name: "SSRN Electronic Journal"
+  url: "https://papers.ssrn.com/abstract=3363947"
+citation: "Lin, D., & Wachter, S. M. (2020). Land use regulation, regulatory spillover and housing prices. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3363947"
+links:
+  - label: "SSRN"
+    url: "https://papers.ssrn.com/abstract=3363947"
+abstract: >-
+  Using California housing sales and a spatial-equilibrium model, this paper estimates
+  how local land-use regulation affects housing prices directly through lower housing
+  productivity and indirectly through household relocation across jurisdictions. It
+  finds economically meaningful regulatory spillovers and shows that ignoring
+  restrictions in surrounding locations can misstate local price effects.
+presentations:
+  - label: "Annual PhD Conference on Real Estate and Housing, Ohio State University, Columbus, OH, 2019"
+  - label: "AREUEA National Meeting, Washington, D.C., 2019"
+  - label: "ESCP–TAU–UCLA Conference on Low-Income Housing Supply and Housing Affordability, Madrid, Spain, 2019"
+  - label: "Urban Economics Association Meeting, Philadelphia, PA, 2019"
+  - label: "AEA–ASSA Annual Meeting, San Diego, CA, 2020"
+  - label: "ARES Annual Meeting, Fort Myers, FL, 2020 (cancelled due to COVID-19)"

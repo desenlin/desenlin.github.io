@@ -1,0 +1,25 @@
+title: "Housing Boom, Mortgage Default and Agency Friction"
+year: 2018
+category: "working-paper"
+status: "Working paper"
+venue:
+  name: "SSRN Electronic Journal"
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3367554"
+citation: "Lin, D. (2018). Housing boom, mortgage default and agency friction. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3367554"
+links:
+  - label: "Paper"
+    url: "https://www.desenlin.com/_files/ugd/c836e6_bbdd6f5f7e7a4067b6d2b7d1490bd624.pdf"
+  - label: "SSRN"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3367554"
+abstract: >-
+  This paper documents rising mortgage delinquency alongside falling mortgage spreads
+  before the Great Recession. A dynamic general-equilibrium model with borrowers,
+  depositors, and constrained intermediaries decomposes the spread into liquidity and
+  default components. The analysis indicates that relaxed intermediary lending
+  constraints can explain simultaneous growth in mortgage credit and declining spreads,
+  while intermediary leverage amplifies boom-bust dynamics.
+presentations:
+  - label: "Midwest Macroeconomics Meetings, Nashville, TN, 2018"
+  - label: "13th Annual Economics Graduate Students Conference, Washington University in St. Louis, St. Louis, MO, 2018"
+  - label: "Penn Macro Lunch, University of Pennsylvania, Philadelphia, PA, 2018"
+  - label: "ASSA–AREUEA Doctoral Session, Atlanta, GA, 2019"

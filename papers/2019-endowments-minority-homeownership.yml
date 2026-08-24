@@ -1,0 +1,20 @@
+title: "Endowments and Minority Homeownership"
+year: 2019
+category: "publication"
+authors:
+  - { name: "Arthur Acolin", affiliation: "University of Washington", url: "https://realestate.washington.edu/people/arthur-acolin/" }
+  - { name: "Susan Wachter", affiliation: "University of Pennsylvania", url: "https://real-estate.wharton.upenn.edu/profile/wachter/" }
+venue: { name: "Cityscape", url: "https://www.huduser.gov/portal/periodicals/cityscpe/vol21num1/article1.html" }
+citation: "Acolin, A., Lin, D., & Wachter, S. M. (2019). Endowments and minority homeownership. Cityscape, 21(1), 5–62."
+abstract: |
+  Using the 1989, 2005, and 2013 American Housing Surveys, the study examines how differences in household endowments account for persistently low Black and Hispanic homeownership rates.
+links:
+  - { label: "Journal", url: "https://www.huduser.gov/portal/periodicals/cityscpe/vol21num1/article1.html" }
+  - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3269089" }
+  - { label: "Research Summary", url: "https://www.desenlin.com/alw19" }
+presentations:
+  - { label: "Urban Institute Data Talk, Washington, D.C., 2019" }
+  - { label: "ASSA–AREUEA Annual Meeting, San Diego, CA, 2020" }
+media:
+  - { label: "Urban Institute", url: "https://www.urban.org/events/black-homeownership-gap-research-trends-and-why-growing-gap-matters" }
+  - { label: "Housing Matters", url: "https://housingmatters.urban.org/research-summary/are-income-disparities-driving-racial-homeownership-gap" }

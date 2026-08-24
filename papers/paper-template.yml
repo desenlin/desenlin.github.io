@@ -1,0 +1,26 @@
+# Copy this file, rename it with the year and a short title, and replace the values.
+title: "Paper title"
+year: 2026
+category: "working-paper" # publication | working-paper | work-in-progress | policy-report | pre-doctoral
+status: "Working paper"
+authors:
+  - name: "Coauthor Name"
+    affiliation: "University Name"
+    url: "https://example.com/profile"
+venue:
+  name: "Journal or publisher name"
+  url: "https://doi.org/example"
+citation: "Author, A. A. (2026). Paper title [Working paper]."
+abstract: |
+  Paste the abstract here. It will appear behind an expandable Abstract control.
+links:
+  - label: "SSRN"
+    url: "https://example.com"
+honors:
+  - label: "Award name"
+    url: "https://example.com/award"
+presentations: [] # Items may also use label + url, as above.
+media:
+  - label: "News outlet"
+    url: "https://example.com/article"
+draft: true

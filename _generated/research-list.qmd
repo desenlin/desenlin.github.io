@@ -1,0 +1,513 @@
+<nav class="research-jump" aria-label="Research sections">
+<a href="#publication">Publications</a>
+<a href="#working-paper">Working Papers</a>
+<a href="#work-in-progress">Work in Progress</a>
+<a href="#policy-reports-and-others">Policy Reports and Others</a>
+</nav>
+
+## Publications {#publication}
+
+::: {.paper-card}
+
+### Coresidence: How Parental Characteristics Matter
+
+<p class="paper-authors">with <a href="https://realestate.washington.edu/people/arthur-acolin/" target="_blank" rel="noreferrer">Arthur Acolin</a> <span class="paper-affiliation">(University of Washington)</span> and <a href="https://real-estate.wharton.upenn.edu/profile/wachter/" target="_blank" rel="noreferrer">Susan Wachter</a> <span class="paper-affiliation">(University of Pennsylvania)</span></p>
+
+<p class="paper-venue-line"><a href="https://doi.org/10.1111/1540-6229.70028" target="_blank" rel="noreferrer">Real Estate Economics</a>, 2026</p>
+
+<div class="paper-links"><a href="https://doi.org/10.1111/1540-6229.70028" target="_blank" rel="noreferrer">Journal</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5878922" target="_blank" rel="noreferrer">SSRN</a> <a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F1540-6229.70028&amp;file=reec70028-sup-0001-SuppMat.pdf" target="_blank" rel="noreferrer">Online Appendix</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-1').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-1" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Acolin, A., Lin, D., &amp; Wachter, S. M. (2026). Coresidence: How parental characteristics matter. Real Estate Economics, 54(3), 701–727. https://doi.org/10.1111/1540-6229.70028</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>The complete published abstract will be imported from the article during the full content migration. This record demonstrates the expandable abstract treatment without publishing an unverified summary.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>Workshop on Changing Demographics and Housing Demand, Philadelphia, PA, 2024 · Housing &amp; Demographic Dynamics Workshop, Singapore, 2025 · AREUEA International Meeting, Barcelona, Spain, 2025</span>
+</div>
+<div class="paper-meta">
+<strong>Media</strong>
+<span><a href="https://www.heritage.org/marriage-and-family/report/saving-america-saving-the-family-foundation-the-next-250-years" target="_blank" rel="noreferrer">Heritage Foundation</a> · <a href="https://www.jchs.harvard.edu/research-areas/working-papers/household-and-new-housing-unit-demand-projections-2025-2035-and-2035" target="_blank" rel="noreferrer">Joint Center for Housing Studies (Harvard University)</a></span>
+</div>
+:::
+
+::: {.paper-card}
+
+### From Vacancy to Verdancy? The Impact of Land Options on the Timing of Vacant Lot Investment
+
+<p class="paper-venue-line"><a href="https://doi.org/10.1111/1540-6229.12487" target="_blank" rel="noreferrer">Real Estate Economics</a>, 2024</p>
+
+<div class="paper-links"><a href="https://doi.org/10.1111/1540-6229.12487" target="_blank" rel="noreferrer">Journal</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4754323" target="_blank" rel="noreferrer">SSRN</a> <a href="https://www.dropbox.com/scl/fi/6q4s12pufwjdp5xtaun96/Lin_OptionPricing_Slides.pdf?rlkey=vggesm8n44q366zlvj97a652g&amp;st=w65hcbe1&amp;dl=0" target="_blank" rel="noreferrer">Slides</a> <a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F1540-6229.12487&amp;file=reec12487-sup-0001-OnlineAppendix.pdf" target="_blank" rel="noreferrer">Online Appendix</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-2').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-2" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D. (2024). From vacancy to verdancy? The impact of land options on the timing of vacant lot investment. Real Estate Economics, 52(5), 1263–1307. https://doi.org/10.1111/1540-6229.12487</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>The complete published abstract will be imported during the full content migration.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Honors</strong>
+<span><a href="https://www.lincolninst.edu/research-fellowship-opportunities/lincoln-institute-scholars-program-alumni/" target="_blank" rel="noreferrer">Lincoln Institute Scholar, 2024</a> · AREUEA Junior Scholar Program, 2024 · <a href="https://www.ares.org/page/manuscript-prize-winners" target="_blank" rel="noreferrer">Best Manuscript Award of Real Estate Investment, American Real Estate Society, 2024</a></span>
+</div>
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>ARES Annual Meeting, Orlando, FL, 2024 · Lincoln Institute of Land Policy, Cambridge, MA, 2024 · AREUEA National Meeting, Washington, D.C., 2024</span>
+</div>
+<div class="paper-meta">
+<strong>Media</strong>
+<span><a href="https://news.fullerton.edu/spotlight/finance-faculty-member-selected-as-a-lincoln-institute-scholar/" target="_blank" rel="noreferrer">CSUF Titan Spotlight</a> · <a href="https://business.fullerton.edu/news/story/do-vacant-lots-in-tough-neighborhoods-just-need-some-green-space-finance-professor-desen-lin-takes-a-look" target="_blank" rel="noreferrer">CSUF Business News</a></span>
+</div>
+:::
+
+::: {.paper-card}
+
+### Why Do Young Adults Coreside with Their Parents?
+
+<p class="paper-authors">with <a href="https://realestate.washington.edu/people/arthur-acolin/" target="_blank" rel="noreferrer">Arthur Acolin</a> <span class="paper-affiliation">(University of Washington)</span> and <a href="https://real-estate.wharton.upenn.edu/profile/wachter/" target="_blank" rel="noreferrer">Susan Wachter</a> <span class="paper-affiliation">(University of Pennsylvania)</span></p>
+
+<p class="paper-venue-line"><a href="https://doi.org/10.1111/1540-6229.12467" target="_blank" rel="noreferrer">Real Estate Economics</a>, 2024</p>
+
+<div class="paper-links"><a href="https://doi.org/10.1111/1540-6229.12467" target="_blank" rel="noreferrer">Journal</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4396015" target="_blank" rel="noreferrer">SSRN</a> <a href="https://www.desenlin.com/alw23" target="_blank" rel="noreferrer">Research Summary</a> <a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F1540-6229.12467&amp;file=reec12467-sup-0001-OnlineAppendix.pdf" target="_blank" rel="noreferrer">Online Appendix</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-3').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-3" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Acolin, A., Lin, D., &amp; Wachter, S. M. (2024). Why do young adults coreside with their parents? Real Estate Economics, 52(1), 7–44. https://doi.org/10.1111/1540-6229.12467</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>The complete published abstract will be imported during the full content migration.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>FHFA ECON Summit on Housing Market Challenges, Washington, D.C., 2023 · ASSA–AREUEA Annual Meeting, San Antonio, TX, 2024</span>
+</div>
+<div class="paper-meta">
+<strong>Media</strong>
+<span><a href="https://www.cbsnews.com/losangeles/video/new-study-shows-rising-number-of-young-adults-living-at-home/" target="_blank" rel="noreferrer">CBS News</a> · <a href="https://www.youtube.com/watch?v=keDCexgToUw" target="_blank" rel="noreferrer">CBS News clip (YouTube)</a> · <a href="https://business.fullerton.edu/news/story/why-are-so-many-adults-still-living-with-their-parents-its-all-about-high-home-prices-and-rents-says-csuf-finance-prof" target="_blank" rel="noreferrer">CSUF Business News</a> · <a href="https://news.fullerton.edu/spotlight/why-are-so-many-adults-still-living-with-their-parents-its-all-about-high-home-prices-and-rents-says-csuf-finance-professor/" target="_blank" rel="noreferrer">CSUF Titan Spotlight</a> · <a href="https://news.fullerton.edu/press-release/new-study-finds-high-home-prices-and-rents-mean-rising-number-of-young-adults-living-with-parents/" target="_blank" rel="noreferrer">CSUF News Release</a> · <a href="https://news.fullerton.edu/app/uploads/2024/02/OCR_02_22_2024.pdf" target="_blank" rel="noreferrer">Orange County Register (print edition)</a> · <a href="https://www.ocregister.com/2024/02/28/housing-costs-why-young-adults-dont-leave-home/" target="_blank" rel="noreferrer">Orange County Register (online edition)</a> · <a href="https://laopinion.com/2024/02/21/altos-precios-de-casas-y-rentas-llevan-a-que-cada-vez-mas-jovenes-vivan-con-sus-padres/" target="_blank" rel="noreferrer">La Opinión (Spanish)</a> · <a href="https://fullertonobserver.com/2024/02/22/new-study-finds-high-home-prices-and-rents-mean-rising-number-of-young-adults-living-with-parents/" target="_blank" rel="noreferrer">Fullerton Observer</a> · <a href="https://www.fairobserver.com/blog/gen-z-doesnt-have-the-money-to-move-out/" target="_blank" rel="noreferrer">Fair Observer</a> · <a href="https://yr.media/news/gen-z-embrace-alternative-homes-van-life-mobile-living-noumaan-faiz/" target="_blank" rel="noreferrer">YR Media</a> · <a href="https://www.marketplace.org/2024/04/03/multigenerational-households-housing-affordability/" target="_blank" rel="noreferrer">Marketplace</a> · <a href="https://www.cnbc.com/2024/02/02/half-of-us-renters-are-cost-burdened-harvard-report-finds.html" target="_blank" rel="noreferrer">CNBC</a> · <a href="https://knowledge.wharton.upenn.edu/article/will-gen-z-be-able-to-afford-houses/" target="_blank" rel="noreferrer">Knowledge at Wharton</a> · <a href="https://www.thedp.com/article/2025/09/penn-dp-press-academy-generation-z" target="_blank" rel="noreferrer">The Daily Pennsylvanian</a> · <a href="https://www.richmondfed.org/publications/research/economic_brief/2025/eb_25-19" target="_blank" rel="noreferrer">Richmond Fed</a> · <a href="https://www.cnn.com/2025/06/29/economy/gen-z-young-home-buyers" target="_blank" rel="noreferrer">CNN</a></span>
+</div>
+:::
+
+::: {.paper-card}
+
+### The Price Effects of Greening Vacant Lots: How Neighborhood Attributes Matter
+
+<p class="paper-authors">with <a href="https://statistics.wharton.upenn.edu/profile/stjensen/" target="_blank" rel="noreferrer">Shane Jensen</a> <span class="paper-affiliation">(University of Pennsylvania)</span> and <a href="https://real-estate.wharton.upenn.edu/profile/wachter/" target="_blank" rel="noreferrer">Susan Wachter</a> <span class="paper-affiliation">(University of Pennsylvania)</span></p>
+
+<p class="paper-venue-line"><a href="https://doi.org/10.1111/1540-6229.12401" target="_blank" rel="noreferrer">Real Estate Economics</a>, 2023</p>
+
+<div class="paper-links"><a href="https://doi.org/10.1111/1540-6229.12401" target="_blank" rel="noreferrer">Journal</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3899624" target="_blank" rel="noreferrer">SSRN</a> <a href="https://www.desenlin.com/ljw22" target="_blank" rel="noreferrer">Research Summary</a> <a href="https://www.desenlin.com/ljw22-map" target="_blank" rel="noreferrer">Spatial Distribution of Greened Lots</a> <a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F1540-6229.12401&amp;file=reec12401-sup-0001-Appendix.docx" target="_blank" rel="noreferrer">Online Appendix</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-4').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-4" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D., Jensen, S. T., &amp; Wachter, S. M. (2023). The price effects of greening vacant lots: How neighborhood attributes matter. Real Estate Economics, 51(3), 573–610. https://doi.org/10.1111/1540-6229.12401</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>The complete published abstract will be imported during the full content migration.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>CSUF Finance Brownbag Seminar, Fullerton, CA, 2022 · ASSA–AREUEA Annual Meeting, New Orleans, LA, 2023</span>
+</div>
+<div class="paper-meta">
+<strong>Media</strong>
+<span><a href="https://ai-analytics.wharton.upenn.edu/impact-analytics/landcare-pays-dividends/" target="_blank" rel="noreferrer">AI &amp; Analytics at Wharton</a> · <a href="https://penniur.upenn.edu/events/rooted-in-research" target="_blank" rel="noreferrer">Rooted in Research: Greening Cities for Health, Safety, and Well-Being (Penn IUR event)</a> · <a href="https://www.phillyvoice.com/philly-property-values-rise-green-vacant-lots-wharton-study-land-care/" target="_blank" rel="noreferrer">PhillyVoice</a> · <a href="https://phsonline.org/programs/transforming-vacant-land/program-model-and-impact" target="_blank" rel="noreferrer">Pennsylvania Horticultural Society</a> · <a href="https://penniur.upenn.edu/publications/advancing-urban-transformation-2022-2023-penn-iur-annual-report" target="_blank" rel="noreferrer">Penn IUR 2022–2023 Annual Report</a> · <a href="https://penniur.upenn.edu/publications/shane-jensen-on-the-price-effects-of-greening-vacant-lots" target="_blank" rel="noreferrer">Penn IUR Faculty Spotlight</a></span>
+</div>
+:::
+
+::: {.paper-card}
+
+### Mortgage Risk Premiums during the Housing Bubble
+
+<p class="paper-authors">with <a href="https://www.law.georgetown.edu/faculty/adam-j-levitin/" target="_blank" rel="noreferrer">Adam Levitin</a> <span class="paper-affiliation">(Georgetown University)</span> and <a href="https://real-estate.wharton.upenn.edu/profile/wachter/" target="_blank" rel="noreferrer">Susan Wachter</a> <span class="paper-affiliation">(University of Pennsylvania)</span></p>
+
+<p class="paper-venue-line"><a href="https://doi.org/10.1007/s11146-018-9682-z" target="_blank" rel="noreferrer">Journal of Real Estate Finance and Economics</a>, 2020</p>
+
+<div class="paper-links"><a href="https://www.desenlin.com/_files/ugd/c836e6_b813051d1ba0462c8b4bf5859a3f68aa.pdf" target="_blank" rel="noreferrer">Paper</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3086314" target="_blank" rel="noreferrer">SSRN</a> <a href="https://www.desenlin.com/llw20" target="_blank" rel="noreferrer">Research Summary</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-5').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-5" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Levitin, A. J., Lin, D., &amp; Wachter, S. M. (2020). Mortgage risk premiums during the housing bubble. Journal of Real Estate Finance and Economics, 60(4), 421–468. https://doi.org/10.1007/s11146-018-9682-z</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>Using private-label securitized mortgage data, the paper documents declining credit spreads conditional on loan and borrower characteristics before the financial crisis. Observable risk factors had less influence on pricing as lending expanded and terms eased.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>AREUEA National Meeting, Washington, D.C., 2018</span>
+</div>
+:::
+
+::: {.paper-card}
+
+### Endowments and Minority Homeownership
+
+<p class="paper-authors">with <a href="https://realestate.washington.edu/people/arthur-acolin/" target="_blank" rel="noreferrer">Arthur Acolin</a> <span class="paper-affiliation">(University of Washington)</span> and <a href="https://real-estate.wharton.upenn.edu/profile/wachter/" target="_blank" rel="noreferrer">Susan Wachter</a> <span class="paper-affiliation">(University of Pennsylvania)</span></p>
+
+<p class="paper-venue-line"><a href="https://www.huduser.gov/portal/periodicals/cityscpe/vol21num1/article1.html" target="_blank" rel="noreferrer">Cityscape</a>, 2019</p>
+
+<div class="paper-links"><a href="https://www.huduser.gov/portal/periodicals/cityscpe/vol21num1/article1.html" target="_blank" rel="noreferrer">Journal</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3269089" target="_blank" rel="noreferrer">SSRN</a> <a href="https://www.desenlin.com/alw19" target="_blank" rel="noreferrer">Research Summary</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-6').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-6" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Acolin, A., Lin, D., &amp; Wachter, S. M. (2019). Endowments and minority homeownership. Cityscape, 21(1), 5–62.</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>Using the 1989, 2005, and 2013 American Housing Surveys, the study examines how differences in household endowments account for persistently low Black and Hispanic homeownership rates.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>Urban Institute Data Talk, Washington, D.C., 2019 · ASSA–AREUEA Annual Meeting, San Diego, CA, 2020</span>
+</div>
+<div class="paper-meta">
+<strong>Media</strong>
+<span><a href="https://www.urban.org/events/black-homeownership-gap-research-trends-and-why-growing-gap-matters" target="_blank" rel="noreferrer">Urban Institute</a> · <a href="https://housingmatters.urban.org/research-summary/are-income-disparities-driving-racial-homeownership-gap" target="_blank" rel="noreferrer">Housing Matters</a></span>
+</div>
+:::
+
+## Working Papers {#working-paper}
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Working paper</span></div>
+
+### Beyond Proximity in the 15-Minute City: A Behavioral Framework for Local Access, Urban Centers, and Spatial Equity
+
+<p class="paper-authors">with <a href="https://www.hkubs.hku.hk/people/xiao-wang/" target="_blank" rel="noreferrer">Betty Xiao Wang</a> <span class="paper-affiliation">(University of Hong Kong)</span> and <a href="https://discovery.nus.edu.sg/3104-kwan-ok-lee" target="_blank" rel="noreferrer">Kwan Ok Lee</a> <span class="paper-affiliation">(National University of Singapore)</span></p>
+
+<p class="paper-venue-line">2026</p>
+
+<div class="paper-links"> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-7').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-7" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D., Wang, B. X., &amp; Lee, K. O. (2026). Beyond proximity in the 15-minute city: A behavioral framework for local access, urban centers, and spatial equity [Working paper].</p>
+</div>
+</dialog>
+
+:::
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Working paper</span></div>
+
+### Land Interventions and Urban Vitality: Evidence from Neighborhood Traffic
+
+<p class="paper-authors">with <a href="https://statistics.wharton.upenn.edu/profile/stjensen/" target="_blank" rel="noreferrer">Shane Jensen</a> <span class="paper-affiliation">(University of Pennsylvania)</span> and <a href="https://real-estate.wharton.upenn.edu/profile/wachter/" target="_blank" rel="noreferrer">Susan Wachter</a> <span class="paper-affiliation">(University of Pennsylvania)</span></p>
+
+<p class="paper-venue-line">2026</p>
+
+<div class="paper-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7120664" target="_blank" rel="noreferrer">SSRN</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-8').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-8" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D., Jensen, S. T., &amp; Wachter, S. M. (2026). Land interventions and urban vitality: Evidence from neighborhood traffic [Working paper].</p>
+</div>
+</dialog>
+
+:::
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Working paper</span></div>
+
+### Rental Market Conditions and Housing Choice: Evidence from Near-Campus Housing Markets
+
+<p class="paper-authors">with <a href="https://business.fullerton.edu/academics/finance/financial-planning/faculty" target="_blank" rel="noreferrer">HanNa Lim</a> <span class="paper-affiliation">(California State University, Fullerton)</span></p>
+
+<p class="paper-venue-line">2026</p>
+
+<div class="paper-links"> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-9').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-9" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D., &amp; Lim, H. (2026). Rental market conditions and housing choice: Evidence from near-campus housing markets [Working paper].</p>
+</div>
+</dialog>
+
+:::
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Working paper</span></div>
+
+### REIT Capital Structure Choices: When Does Preparation Matter?
+
+<p class="paper-authors">with <a href="https://www.sfu.ca/beedie/contact-us/faculty-staff-directory/profile.html?name=AndreyPavlov" target="_blank" rel="noreferrer">Andrey Pavlov</a> <span class="paper-affiliation">(Simon Fraser University)</span>, <a href="https://directory.smeal.psu.edu/ems6770" target="_blank" rel="noreferrer">Eva Steiner</a> <span class="paper-affiliation">(Pennsylvania State University)</span>, and <a href="https://real-estate.wharton.upenn.edu/profile/wachter/" target="_blank" rel="noreferrer">Susan Wachter</a> <span class="paper-affiliation">(University of Pennsylvania)</span></p>
+
+<p class="paper-venue-line"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3830948" target="_blank" rel="noreferrer">SSRN Electronic Journal</a>, 2021</p>
+
+<div class="paper-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3830948" target="_blank" rel="noreferrer">SSRN</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-10').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-10" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D., Pavlov, A. D., Steiner, E., &amp; Wachter, S. M. (2021). REIT capital structure choices: When does preparation matter? SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3830948</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>This paper uses the contrast between the predictable 2007–2009 financial crisis and the unexpected COVID-19 shock to test why pre-crisis REIT capital-structure adjustments matter. Leverage reduction and maturity extension predicted returns during the earlier crisis but not during the pandemic, supporting the interpretation that preparation for foreseeable events signals managerial quality.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>ASSA–AREUEA Annual Meeting, Virtual, 2022</span>
+</div>
+:::
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Working paper · Dissertation</span></div>
+
+### Housing Search and Rental Market Intermediation
+
+<p class="paper-venue-line"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3714128" target="_blank" rel="noreferrer">SSRN Electronic Journal</a>, 2020</p>
+
+<div class="paper-links"><a href="https://www.desenlin.com/_files/ugd/c836e6_7fac1573d19c49318ddd9aeb1f2ddcfb.pdf" target="_blank" rel="noreferrer">Paper</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3714128" target="_blank" rel="noreferrer">SSRN</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-11').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-11" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D. (2020). Housing search and rental market intermediation. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3714128</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>Using listing-agent matched data from Manhattan, this paper studies how broker listing capacity affects rents and time on market. Larger brokers list at lower rents and achieve shorter durations, patterns not fully explained by housing amenities. A directed-search model links broker capacity constraints to tenant coordination frictions and evaluates brokerage entry and rules shifting commission liability from tenants to landlords.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Honors</strong>
+<span><a href="https://www.areuea.org/hoyt-institute-doctoral-dissertation-award" target="_blank" rel="noreferrer">Homer Hoyt Doctoral Dissertation Award, AREUEA, 2021</a> · <a href="https://www.ares.org/page/manuscript-prize-winners" target="_blank" rel="noreferrer">Best Manuscript Award of Real Estate Brokerage, American Real Estate Society, 2021</a></span>
+</div>
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>ARES Annual Meeting, Virtual, 2021 · North American Summer Meeting of the Econometric Society, Virtual, 2021</span>
+</div>
+<div class="paper-meta">
+<strong>Media</strong>
+<span><a href="https://business.fullerton.edu/news/story/assistant-professor-of-finance-desen-lin-receives-real-estate-economics-dissertation-award" target="_blank" rel="noreferrer">CSUF Business News</a></span>
+</div>
+:::
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Working paper</span></div>
+
+### Land Use Regulation, Regulatory Spillover and Housing Prices
+
+<p class="paper-authors">with <a href="https://real-estate.wharton.upenn.edu/profile/wachter/" target="_blank" rel="noreferrer">Susan Wachter</a> <span class="paper-affiliation">(University of Pennsylvania)</span></p>
+
+<p class="paper-venue-line"><a href="https://papers.ssrn.com/abstract=3363947" target="_blank" rel="noreferrer">SSRN Electronic Journal</a>, 2020</p>
+
+<div class="paper-links"><a href="https://papers.ssrn.com/abstract=3363947" target="_blank" rel="noreferrer">SSRN</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-12').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-12" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D., &amp; Wachter, S. M. (2020). Land use regulation, regulatory spillover and housing prices. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3363947</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>Using California housing sales and a spatial-equilibrium model, this paper estimates how local land-use regulation affects housing prices directly through lower housing productivity and indirectly through household relocation across jurisdictions. It finds economically meaningful regulatory spillovers and shows that ignoring restrictions in surrounding locations can misstate local price effects.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>Annual PhD Conference on Real Estate and Housing, Ohio State University, Columbus, OH, 2019 · AREUEA National Meeting, Washington, D.C., 2019 · ESCP–TAU–UCLA Conference on Low-Income Housing Supply and Housing Affordability, Madrid, Spain, 2019 · Urban Economics Association Meeting, Philadelphia, PA, 2019 · AEA–ASSA Annual Meeting, San Diego, CA, 2020 · ARES Annual Meeting, Fort Myers, FL, 2020 (cancelled due to COVID-19)</span>
+</div>
+:::
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Working paper</span></div>
+
+### Housing Boom, Mortgage Default and Agency Friction
+
+<p class="paper-venue-line"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3367554" target="_blank" rel="noreferrer">SSRN Electronic Journal</a>, 2018</p>
+
+<div class="paper-links"><a href="https://www.desenlin.com/_files/ugd/c836e6_bbdd6f5f7e7a4067b6d2b7d1490bd624.pdf" target="_blank" rel="noreferrer">Paper</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3367554" target="_blank" rel="noreferrer">SSRN</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-13').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-13" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D. (2018). Housing boom, mortgage default and agency friction. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3367554</p>
+</div>
+</dialog>
+
+<details class="abstract-disclosure">
+<summary>Abstract</summary>
+<p>This paper documents rising mortgage delinquency alongside falling mortgage spreads before the Great Recession. A dynamic general-equilibrium model with borrowers, depositors, and constrained intermediaries decomposes the spread into liquidity and default components. The analysis indicates that relaxed intermediary lending constraints can explain simultaneous growth in mortgage credit and declining spreads, while intermediary leverage amplifies boom-bust dynamics.</p>
+</details>
+
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>Midwest Macroeconomics Meetings, Nashville, TN, 2018 · 13th Annual Economics Graduate Students Conference, Washington University in St. Louis, St. Louis, MO, 2018 · Penn Macro Lunch, University of Pennsylvania, Philadelphia, PA, 2018 · ASSA–AREUEA Doctoral Session, Atlanta, GA, 2019</span>
+</div>
+:::
+
+## Work in Progress {#work-in-progress}
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Work in progress</span></div>
+
+### Risk Recast in Housing Markets: Evidence from an Appraisal Reform
+
+<p class="paper-venue-line">2026</p>
+
+<div class="paper-links"> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-14').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-14" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D. (2026). Risk recast in housing markets: Evidence from an appraisal reform [Work in progress].</p>
+</div>
+</dialog>
+
+:::
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Work in progress</span></div>
+
+### Young Adult Coresidence and Inter Vivos Transfers
+
+<p class="paper-authors">with <a href="https://realestate.washington.edu/people/arthur-acolin/" target="_blank" rel="noreferrer">Arthur Acolin</a> <span class="paper-affiliation">(University of Washington)</span>, <a href="https://discovery.nus.edu.sg/3104-kwan-ok-lee" target="_blank" rel="noreferrer">Kwan Ok Lee</a> <span class="paper-affiliation">(National University of Singapore)</span>, and <a href="https://real-estate.wharton.upenn.edu/profile/wachter/" target="_blank" rel="noreferrer">Susan Wachter</a> <span class="paper-affiliation">(University of Pennsylvania)</span></p>
+
+<p class="paper-venue-line">2026</p>
+
+<div class="paper-links"> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-15').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-15" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D., Acolin, A., Lee, K. O., &amp; Wachter, S. M. (2026). Young adult coresidence and inter vivos transfers [Work in progress].</p>
+</div>
+</dialog>
+
+:::
+
+## Policy Reports and Others {#policy-reports-and-others}
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Policy report</span></div>
+
+### Vacant Lot Greening as a Long-Term Investment in Legacy Cities? Evidence from the LandCare Program in Philadelphia
+
+<p class="paper-venue-line"><a href="https://www.lincolninst.edu/publications/working-papers/vacant-lot-greening-long-term-investment-legacy-cities-evidence-landcare-philadelphia/" target="_blank" rel="noreferrer">Lincoln Institute of Land Policy</a>, 2026</p>
+
+<div class="paper-links"><a href="https://www.lincolninst.edu/publications/working-papers/vacant-lot-greening-long-term-investment-legacy-cities-evidence-landcare-philadelphia/" target="_blank" rel="noreferrer">Report</a> <a href="https://papers.ssrn.com/abstract=6515819" target="_blank" rel="noreferrer">SSRN</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-16').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-16" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D. (2026). Vacant lot greening as a long-term investment in legacy cities? Evidence from the LandCare Program in Philadelphia. Lincoln Institute of Land Policy.</p>
+</div>
+</dialog>
+
+:::
+
+::: {.paper-card}
+<div class="paper-topline"><span class="paper-status">Pre-doctoral research</span></div>
+
+### A Literature Review of Career Concerns: Theories and Empirics
+
+<p class="paper-venue-line">Unpublished manuscript, 2015</p>
+
+<div class="paper-links"><a href="https://www.desenlin.com/_files/ugd/c836e6_b4687662d2b74d5583b85b7a95959707.pdf" target="_blank" rel="noreferrer">Paper</a> <button type="button" class="citation-link" aria-haspopup="dialog" onclick="document.getElementById('citation-17').showModal()">APA citation</button></div>
+
+<dialog class="citation-dialog" id="citation-17" onclick="if (event.target === this) this.close()">
+<div class="citation-dialog-content">
+<div class="citation-dialog-heading">
+<h4>APA citation</h4>
+<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>
+</div>
+<p>Lin, D. (2015). A literature review of career concerns: Theories and empirics [Unpublished manuscript].</p>
+</div>
+</dialog>
+
+<div class="paper-meta">
+<strong>Presentations</strong>
+<span>UC Santa Barbara Labor Economics Workshop, Santa Barbara, CA, 2015</span>
+</div>
+:::

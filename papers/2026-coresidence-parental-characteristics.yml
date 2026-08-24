@@ -1,0 +1,21 @@
+title: "Coresidence: How Parental Characteristics Matter"
+year: 2026
+category: "publication"
+authors:
+  - { name: "Arthur Acolin", affiliation: "University of Washington", url: "https://realestate.washington.edu/people/arthur-acolin/" }
+  - { name: "Susan Wachter", affiliation: "University of Pennsylvania", url: "https://real-estate.wharton.upenn.edu/profile/wachter/" }
+venue: { name: "Real Estate Economics", url: "https://doi.org/10.1111/1540-6229.70028" }
+citation: "Acolin, A., Lin, D., & Wachter, S. M. (2026). Coresidence: How parental characteristics matter. Real Estate Economics, 54(3), 701–727. https://doi.org/10.1111/1540-6229.70028"
+abstract: |
+  The complete published abstract will be imported from the article during the full content migration. This record demonstrates the expandable abstract treatment without publishing an unverified summary.
+links:
+  - { label: "Journal", url: "https://doi.org/10.1111/1540-6229.70028" }
+  - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5878922" }
+  - { label: "Online Appendix", url: "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F1540-6229.70028&file=reec70028-sup-0001-SuppMat.pdf" }
+presentations:
+  - { label: "Workshop on Changing Demographics and Housing Demand, Philadelphia, PA, 2024" }
+  - { label: "Housing & Demographic Dynamics Workshop, Singapore, 2025" }
+  - { label: "AREUEA International Meeting, Barcelona, Spain, 2025" }
+media:
+  - { label: "Heritage Foundation", url: "https://www.heritage.org/marriage-and-family/report/saving-america-saving-the-family-foundation-the-next-250-years" }
+  - { label: "Joint Center for Housing Studies (Harvard University)", url: "https://www.jchs.harvard.edu/research-areas/working-papers/household-and-new-housing-unit-demand-projections-2025-2035-and-2035" }

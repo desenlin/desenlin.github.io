@@ -1,0 +1,12 @@
+---
+pagetitle: "Research | Desen Lin"
+description: "Publications, working papers, and ongoing research by Desen Lin."
+---
+
+<p class="eyebrow">Scholarship</p>
+
+# Research
+
+My research examines housing markets, real estate finance, urban policy, and the choices households make within local markets.
+
+{{< include _generated/research-list.qmd >}}

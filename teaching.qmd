@@ -1,0 +1,38 @@
+---
+pagetitle: "Teaching | Desen Lin"
+---
+
+<p class="eyebrow">Teaching</p>
+
+# Connecting economic reasoning to real estate decisions.
+
+At Cal State Fullerton, I teach courses in real estate principles and investment analysis, with an emphasis on applied market evidence, financial modeling, and professional practice.
+
+::: {.course-grid}
+::: {.course-card}
+<span class="course-code">FIN 351</span>
+
+## Real Estate Principles
+
+An introduction to property rights, markets, finance, valuation, brokerage, and the institutions that shape real estate decisions.
+:::
+
+::: {.course-card}
+<span class="course-code">FIN 355</span>
+
+## Real Estate Investment Analysis
+
+Applied analysis of property cash flows, financing, risk, valuation, and investment decisions using spreadsheet models and case-based work.
+:::
+:::
+
+## Previous teaching experience
+
+**University of Pennsylvania**  
+Statistics for Economists; Public Finance; Urban Real Estate Economics; International Housing Comparisons; Intermediate Microeconomics.
+
+**University of California, Santa Barbara**  
+Microeconomic Theory; Intermediate Microeconomics; Principles of Macroeconomics.
+
+**Fudan University**  
+Public Economics; Probability and Statistics.

@@ -1,0 +1,35 @@
+---
+pagetitle: "Photography | Desen Lin"
+---
+
+<p class="eyebrow">Personal</p>
+
+# Photography
+
+Selected photographs from Philadelphia, Boston, and Santa Barbara. The original image files will be migrated from Wix before the current plan is canceled.
+
+::: {.photo-grid}
+::: {.photo-card}
+<div class="photo-placeholder tone-1"></div>
+
+## Philadelphia
+
+31 photographs · original files pending migration
+:::
+
+::: {.photo-card}
+<div class="photo-placeholder tone-2"></div>
+
+## Boston
+
+20 photographs · original files pending migration
+:::
+
+::: {.photo-card}
+<div class="photo-placeholder tone-3"></div>
+
+## Santa Barbara
+
+19 photographs · original files pending migration
+:::
+:::

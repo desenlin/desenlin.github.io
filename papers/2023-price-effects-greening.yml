@@ -1,0 +1,25 @@
+title: "The Price Effects of Greening Vacant Lots: How Neighborhood Attributes Matter"
+year: 2023
+category: "publication"
+authors:
+  - { name: "Shane Jensen", affiliation: "University of Pennsylvania", url: "https://statistics.wharton.upenn.edu/profile/stjensen/" }
+  - { name: "Susan Wachter", affiliation: "University of Pennsylvania", url: "https://real-estate.wharton.upenn.edu/profile/wachter/" }
+venue: { name: "Real Estate Economics", url: "https://doi.org/10.1111/1540-6229.12401" }
+citation: "Lin, D., Jensen, S. T., & Wachter, S. M. (2023). The price effects of greening vacant lots: How neighborhood attributes matter. Real Estate Economics, 51(3), 573–610. https://doi.org/10.1111/1540-6229.12401"
+abstract: "The complete published abstract will be imported during the full content migration."
+links:
+  - { label: "Journal", url: "https://doi.org/10.1111/1540-6229.12401" }
+  - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3899624" }
+  - { label: "Research Summary", url: "https://www.desenlin.com/ljw22" }
+  - { label: "Spatial Distribution of Greened Lots", url: "https://www.desenlin.com/ljw22-map" }
+  - { label: "Online Appendix", url: "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F1540-6229.12401&file=reec12401-sup-0001-Appendix.docx" }
+presentations:
+  - { label: "CSUF Finance Brownbag Seminar, Fullerton, CA, 2022" }
+  - { label: "ASSA–AREUEA Annual Meeting, New Orleans, LA, 2023" }
+media:
+  - { label: "AI & Analytics at Wharton", url: "https://ai-analytics.wharton.upenn.edu/impact-analytics/landcare-pays-dividends/" }
+  - { label: "Rooted in Research: Greening Cities for Health, Safety, and Well-Being (Penn IUR event)", url: "https://penniur.upenn.edu/events/rooted-in-research" }
+  - { label: "PhillyVoice", url: "https://www.phillyvoice.com/philly-property-values-rise-green-vacant-lots-wharton-study-land-care/" }
+  - { label: "Pennsylvania Horticultural Society", url: "https://phsonline.org/programs/transforming-vacant-land/program-model-and-impact" }
+  - { label: "Penn IUR 2022–2023 Annual Report", url: "https://penniur.upenn.edu/publications/advancing-urban-transformation-2022-2023-penn-iur-annual-report" }
+  - { label: "Penn IUR Faculty Spotlight", url: "https://penniur.upenn.edu/publications/shane-jensen-on-the-price-effects-of-greening-vacant-lots" }
