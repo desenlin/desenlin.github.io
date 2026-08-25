@@ -112,33 +112,39 @@ def render_paper(paper: dict, citation_id: str) -> list[str]:
     lines.extend([f'<p class="paper-venue-line">{venue_line}</p>', ""])
 
     links = paper.get("links") or []
-    link_markup = " ".join(
-            f'<a href="{esc(link["url"])}" target="_blank" rel="noreferrer">{esc(link["label"])}</a>'
-            for link in links
+    link_items = [
+        f'<a href="{esc(link["url"])}" target="_blank" rel="noreferrer">{esc(link["label"])}</a>'
+        for link in links
+    ]
+    show_citation = paper.get(
+        "show_citation", paper.get("category") != "work-in-progress"
     )
-    citation_button = (
-        f'<button type="button" class="citation-link" aria-haspopup="dialog" '
-        f'onclick="document.getElementById(\'{citation_id}\').showModal()">'
-        "APA citation</button>"
-    )
-    lines.extend(
-        [f'<div class="paper-links">{link_markup} {citation_button}</div>', ""]
-    )
+    if show_citation:
+        link_items.append(
+            f'<button type="button" class="citation-link" aria-haspopup="dialog" '
+            f'onclick="document.getElementById(\'{citation_id}\').showModal()">'
+            "APA citation</button>"
+        )
+    if link_items:
+        lines.extend(
+            [f'<div class="paper-links">{" ".join(link_items)}</div>', ""]
+        )
 
-    lines.extend(
-        [
-            f'<dialog class="citation-dialog" id="{citation_id}" onclick="if (event.target === this) this.close()">',
-            '<div class="citation-dialog-content">',
-            '<div class="citation-dialog-heading">',
-            "<h4>APA citation</h4>",
-            '<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>',
-            "</div>",
-            f'<p>{esc(paper["citation"])}</p>',
-            "</div>",
-            "</dialog>",
-            "",
-        ]
-    )
+    if show_citation:
+        lines.extend(
+            [
+                f'<dialog class="citation-dialog" id="{citation_id}" onclick="if (event.target === this) this.close()">',
+                '<div class="citation-dialog-content">',
+                '<div class="citation-dialog-heading">',
+                "<h4>APA citation</h4>",
+                '<form method="dialog"><button class="citation-close" aria-label="Close APA citation">×</button></form>',
+                "</div>",
+                f'<p>{esc(paper["citation"])}</p>',
+                "</div>",
+                "</dialog>",
+                "",
+            ]
+        )
 
     abstract = paper.get("abstract")
     if abstract:
