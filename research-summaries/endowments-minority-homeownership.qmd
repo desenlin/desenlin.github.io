@@ -1,0 +1,34 @@
+---
+title: "Endowments and Minority Homeownership"
+subtitle: "Research summary · Acolin, Lin, and Wachter (2019)"
+description: "Research summary of Endowments and Minority Homeownership."
+body-classes: research-summary-page
+---
+
+::: {.research-summary}
+
+[← Back to Research](../research.html){.summary-back}
+
+::: {.summary-citation}
+**Citation:** Acolin, A., Lin, D., & Wachter, S. M. (2019). Endowments and minority homeownership. *Cityscape, 21*(1), 5–62.
+:::
+
+::: {.summary-figure}
+![White and minority homeownership rates over time.](https://static.wixstatic.com/media/c836e6_f48029fa3fe442dc92e4091914e4f08b~mv2.png/v1/fill/w_608,h_378,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/AcolinLinWachter19%203.png)
+:::
+
+## Persistent White–Minority Homeownership Gaps
+
+The ability to become a homeowner affects access to opportunity. Persistently lower homeownership outcomes contribute to limiting households’ ability to withstand negative shocks in times of economic crisis. Differential access to homeownership is both influenced by and has long-lasting impacts on intergenerational wealth building.
+
+## What Explains the Homeownership Gaps?
+
+Household and market endowment gaps are persistent forces in the past decades to explain a substantial share of the white–minority homeownership gaps for Black and Hispanic households.
+
+::: {.summary-figure}
+![Decomposition of white–minority homeownership gaps.](https://static.wixstatic.com/media/c836e6_8fe38f4b0a5a46c5a0806c3c53e026ec~mv2.png/v1/crop/x_0,y_66,w_1316,h_884/fill/w_617,h_414,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/AcolinLinWachter19%2026.png)
+:::
+
+[← Back to Research](../research.html){.summary-back .summary-back-bottom}
+
+:::

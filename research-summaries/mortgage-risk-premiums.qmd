@@ -1,0 +1,50 @@
+---
+title: "Mortgage Risk Premiums during the Housing Bubble"
+subtitle: "Research summary · Levitin, Lin, and Wachter (2020)"
+description: "Research summary of Mortgage Risk Premiums during the Housing Bubble."
+body-classes: research-summary-page
+---
+
+::: {.research-summary}
+
+[← Back to Research](../research.html){.summary-back}
+
+::: {.summary-citation}
+**Citation:** Levitin, A. J., Lin, D., & Wachter, S. M. (2020). Mortgage risk premiums during the housing bubble. *The Journal of Real Estate Finance and Economics, 60*(4), 421–468.
+:::
+
+::: {.summary-figure}
+![Mortgage risk pricing by origination vintage.](https://static.wixstatic.com/media/c836e6_4e28aef0312240d6bae5faf72dcd479f~mv2.png/v1/fill/w_503,h_313,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fig7_PNG.png)
+:::
+
+## How Was Mortgage Risk Priced before the 2008 Great Recession?
+
+In the regression of mortgage risk (measured by the gross margin or the original interest rate spread), the coefficients on the vintage indicators of the adjustable-rate mortgage (ARM) show that mortgage risk in 2003/04 was priced substantially lower than the 2001 level.
+
+## Borrower Characteristics Worsened before the Great Recession
+
+The distribution of the credit score (FICO) of ARM borrowers skewed to the left in the years closer to the 2008 Great Recession.
+
+::: {.summary-figure-grid}
+![Distribution of borrower credit scores by origination year.](https://static.wixstatic.com/media/c836e6_71e3fdb8c592422ba6910819fc19277a~mv2.png/v1/crop/x_0,y_9,w_1055,h_751/fill/w_547,h_390,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fig2_PNG.png)
+
+![Mortgage borrower risk characteristics.](https://static.wixstatic.com/media/c836e6_f44cd38c7ab24d41bb65033855ed504b~mv2.png/v1/crop/x_0,y_0,w_1022,h_728/fill/w_310,h_221,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fig8_PNG.png)
+:::
+
+## Mortgage Risk Pricing Became Less Sensitive to Hard Information
+
+The coefficients on the credit score (FICO) and the loan-to-value ratio (LTV) show decreasing impacts over time on the gross margin, the portion of the ARM rate reflecting the riskiness of a borrower.
+
+In other words, high-risk borrowers were not charged a higher rate than low-risk borrowers to compensate for the default risk.
+
+## What Are the Driving Forces of Mortgage Risk Underpricing?
+
+In addition to the decreasing impacts of hard information on risk pricing, refinance loans mainly contributed to the underpricing of mortgage risk.
+
+::: {.summary-figure}
+![Contribution of refinance lending to mortgage-risk underpricing.](https://static.wixstatic.com/media/c836e6_bd8dd60376be4866839ac533231c0182~mv2.png/v1/fill/w_637,h_305,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fig10_PNG.png)
+:::
+
+[← Back to Research](../research.html){.summary-back .summary-back-bottom}
+
+:::
