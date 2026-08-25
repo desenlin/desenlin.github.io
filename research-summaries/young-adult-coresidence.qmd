@@ -41,11 +41,15 @@ Rent-income and price-income ratios rise from 1970 to 1990 before declining in t
 
 In 2000, measures of the housing-affordability burden begin increasing until their decline with the subprime recession of 2009, then rise again in 2010 and remain higher than at any point since 1960.
 
-::: {.summary-figure-grid}
+::: {.summary-figure}
 ![Historical housing-affordability measures.](../images/research-summaries/coresidence-affordability.jpg)
+:::
 
+::: {.summary-figure}
 ![Rent-income ratios and young-adult coresidence.](../images/research-summaries/coresidence-rent-income.png)
+:::
 
+::: {.summary-figure}
 ![Price-income ratios and young-adult coresidence.](../images/research-summaries/coresidence-price-income.png)
 :::
 
