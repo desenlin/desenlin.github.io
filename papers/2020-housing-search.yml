@@ -1,7 +1,8 @@
 title: "Housing Search and Rental Market Intermediation"
 year: 2020
-category: "working-paper"
-status: "Working paper · Dissertation"
+category: "dissertation"
+status: "Dissertation"
+sort_order: 1
 venue:
   name: "SSRN Electronic Journal"
   url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3714128"
