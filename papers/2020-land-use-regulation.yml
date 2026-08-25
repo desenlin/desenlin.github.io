@@ -14,7 +14,7 @@ links:
   - label: "SSRN"
     url: "https://papers.ssrn.com/abstract=3363947"
 abstract: |
-  Abstract forthcoming.
+  We estimate the effect of city land use regulation on housing prices in the presence of regulatory spillover. The total effect of regulation is decomposed into a direct effect in which regulation lowers housing productivity and an indirect effect in which household location choice mitigates the price effects of regulatory restrictions. Using housing sales data from California, we structurally estimate a closed-form housing price equation based on a housing model with spatial arbitrage. We find that the total price effect of a one standard deviation increase in city restrictiveness is 9.3% on average, ranging from 4.1% to 14.4% across cities. The spillover effect is economically significant, with the size of the indirect effect equal to 21% of the direct effect for an average city, ranging from 0 to 47%. We point to the importance of identifying direct and indirect effects by controlling for regulation in surrounding locations. For jurisdictions with the power to impose regulation on a larger number of locations, regulation has a stronger price impact due to limits on regulatory spillover. 
 presentations:
   - label: "Annual PhD Conference on Real Estate and Housing, Ohio State University, Columbus, OH, 2019"
   - label: "AREUEA National Meeting, Washington, D.C., 2019"
