@@ -8,7 +8,7 @@ pagetitle: "Curriculum Vitae | Desen Lin"
 
 Current appointment, education, publications, working papers, awards, professional service, and teaching experience.
 
-[Open current CV](https://www.desenlin.com/_files/ugd/c836e6_9626f3c0de184c84896d942f76b793a5.pdf){.button-link}
+[Open current CV](files/cv/desen-lin-cv.pdf){.button-link}
 
 *Updated August 2026* 
 

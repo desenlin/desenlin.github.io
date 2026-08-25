@@ -1,0 +1,74 @@
+[
+  {
+    "output": "files/cv/desen-lin-cv.pdf",
+    "size": 69981,
+    "sha256": "68af5c611292eefa1d764ab0706b943c3bc174335c86724fb87389b507b09a2b",
+    "chunks": [
+      "cv/desen-lin-cv.part-000.b64"
+    ]
+  },
+  {
+    "output": "files/maps/spatial-distribution-greened-lots.pdf",
+    "size": 2234456,
+    "sha256": "5f51aa235ebc50bd8acd1a6b2a401013f1a0ef66afa9f2f420ee50713bd5be1f",
+    "chunks": [
+      "maps/spatial-distribution-greened-lots.part-000.b64",
+      "maps/spatial-distribution-greened-lots.part-001.b64",
+      "maps/spatial-distribution-greened-lots.part-002.b64",
+      "maps/spatial-distribution-greened-lots.part-003.b64",
+      "maps/spatial-distribution-greened-lots.part-004.b64"
+    ]
+  },
+  {
+    "output": "files/papers/career-concerns-literature-review.pdf",
+    "size": 251829,
+    "sha256": "937f9b21d3dbc9dfc27957c51d465373e02cc86f17f20ed811c3904b0e1ba0f9",
+    "chunks": [
+      "papers/career-concerns-literature-review.part-000.b64"
+    ]
+  },
+  {
+    "output": "files/papers/housing-boom-mortgage-default-agency-friction.pdf",
+    "size": 1284959,
+    "sha256": "24fe6a25932c5b5878c97cc2c91116de2d07252a88f3c9126fcd5a1672223d1f",
+    "chunks": [
+      "papers/housing-boom-mortgage-default-agency-friction.part-000.b64",
+      "papers/housing-boom-mortgage-default-agency-friction.part-001.b64",
+      "papers/housing-boom-mortgage-default-agency-friction.part-002.b64"
+    ]
+  },
+  {
+    "output": "files/papers/housing-search-rental-market-intermediation.pdf",
+    "size": 3897040,
+    "sha256": "2ff375ec70d85fd25a5cb24c9d0db5c83bb6fe964b9ad4bc9827c0a7f62a23e4",
+    "chunks": [
+      "papers/housing-search-rental-market-intermediation.part-000.b64",
+      "papers/housing-search-rental-market-intermediation.part-001.b64",
+      "papers/housing-search-rental-market-intermediation.part-002.b64",
+      "papers/housing-search-rental-market-intermediation.part-003.b64",
+      "papers/housing-search-rental-market-intermediation.part-004.b64",
+      "papers/housing-search-rental-market-intermediation.part-005.b64",
+      "papers/housing-search-rental-market-intermediation.part-006.b64",
+      "papers/housing-search-rental-market-intermediation.part-007.b64"
+    ]
+  },
+  {
+    "output": "files/papers/mortgage-risk-premiums.pdf",
+    "size": 829096,
+    "sha256": "3d6fe3cf1fbbf667a1e9160bfa0b666f90a2c35f7a37901f71b6ff0316f363d5",
+    "chunks": [
+      "papers/mortgage-risk-premiums.part-000.b64",
+      "papers/mortgage-risk-premiums.part-001.b64"
+    ]
+  },
+  {
+    "output": "files/slides/lin-option-pricing-slides.pdf",
+    "size": 1158478,
+    "sha256": "8e09687bce86c0e34820e816e506bb785270ea0864beae9b22332cc1a49564a1",
+    "chunks": [
+      "slides/lin-option-pricing-slides.part-000.b64",
+      "slides/lin-option-pricing-slides.part-001.b64",
+      "slides/lin-option-pricing-slides.part-002.b64"
+    ]
+  }
+]
