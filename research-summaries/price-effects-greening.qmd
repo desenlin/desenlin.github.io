@@ -11,11 +11,11 @@ body-classes: research-summary-page
 
 ::: {.summary-citation}
 **Citation:** Lin, D., Jensen, S. T., & Wachter, S. M. (2023). The price effects of greening vacant lots: How neighborhood attributes matter. *Real Estate Economics, 51*(3), 573–610. [https://doi.org/10.1111/1540-6229.12401](https://doi.org/10.1111/1540-6229.12401)
-:::
+::: -->
 
-::: {.summary-hero-image}
+<!-- ::: {.summary-hero-image}
 ![A green urban neighborhood in Philadelphia.](../images/research-summaries/greening-hero.jpg)
-:::
+::: -->
 
 > “Let every House be placed, if the Person pleases in the middle of its platt as to the breadth way of it, that so there may be ground on each side, for Gardens or Orchards or feilds [sic], that it, may be a greene Country Towne, [which] will never be burnt, and allways be wholsome.”
 >
