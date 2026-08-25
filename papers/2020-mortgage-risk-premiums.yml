@@ -7,7 +7,7 @@ authors:
 venue: { name: "Journal of Real Estate Finance and Economics", url: "https://doi.org/10.1007/s11146-018-9682-z" }
 citation: "Levitin, A. J., Lin, D., & Wachter, S. M. (2020). Mortgage risk premiums during the housing bubble. Journal of Real Estate Finance and Economics, 60(4), 421–468. https://doi.org/10.1007/s11146-018-9682-z"
 abstract: |
-  Using private-label securitized mortgage data, the paper documents declining credit spreads conditional on loan and borrower characteristics before the financial crisis. Observable risk factors had less influence on pricing as lending expanded and terms eased.
+  How did pricing for mortgage credit risk change during the years prior to the 2008 financial crisis? Using a database from a major American bank that served as trustee for private-label mortgage-backed securitized (PLS) loans, this paper identifies a decline in credit spreads on mortgages conditioned on loan and borrower characteristics. We show that observable risk factors, FICO score and loan-to-value ratio, had less of an impact on mortgage pricing over time. As the volume of PLS mortgages expanded and lending terms eased, risk premiums failed to price the increase in risk.
 links:
   - { label: "Paper", url: "https://www.desenlin.com/_files/ugd/c836e6_b813051d1ba0462c8b4bf5859a3f68aa.pdf" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3086314" }
