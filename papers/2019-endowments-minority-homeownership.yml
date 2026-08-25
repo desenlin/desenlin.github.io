@@ -11,7 +11,7 @@ abstract: |
 links:
   - { label: "Journal", url: "https://www.huduser.gov/portal/periodicals/cityscpe/vol21num1/article1.html" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3269089" }
-  - { label: "Research Summary", url: "https://www.desenlin.com/alw19" }
+  - { label: "Research Summary", url: "research-summaries/endowments-minority-homeownership.html" }
 presentations:
   - { label: "Urban Institute Data Talk, Washington, D.C., 2019" }
   - { label: "ASSA–AREUEA Annual Meeting, San Diego, CA, 2020" }
