@@ -11,7 +11,7 @@ body-classes: research-summary-page
 
 ::: {.summary-citation}
 **Citation:** Lin, D., Jensen, S. T., & Wachter, S. M. (2023). The price effects of greening vacant lots: How neighborhood attributes matter. *Real Estate Economics, 51*(3), 573–610. [https://doi.org/10.1111/1540-6229.12401](https://doi.org/10.1111/1540-6229.12401)
-::: -->
+::: 
 
 <!-- ::: {.summary-hero-image}
 ![A green urban neighborhood in Philadelphia.](../images/research-summaries/greening-hero.jpg)
@@ -45,10 +45,10 @@ The key steps of vacant-lot remediation include:
 ::: {.summary-figure .summary-figure-narrow}
 ![A Philadelphia vacant lot after cleaning and greening.](../images/research-summaries/greening-lot.jpg)
 :::
-
+<!-- 
 ::: {.summary-hero-image}
 ![Comparison of vacant land before and after greening.](../images/research-summaries/greening-before-after.png)
-:::
+::: -->
 
 ## Greened Lots vs. Parks: The Same Green Space?
 
