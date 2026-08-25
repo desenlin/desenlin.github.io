@@ -1,7 +1,7 @@
 # Copy this file, rename it with the year and a short title, and replace the values.
 title: "Paper title"
 year: 2026
-category: "working-paper" # publication | working-paper | work-in-progress | policy-report | pre-doctoral
+category: "working-paper" # publication | working-paper | work-in-progress | policy-report | unpublished-manuscript | pre-doctoral
 status: "Working paper"
 authors:
   - name: "Coauthor Name"

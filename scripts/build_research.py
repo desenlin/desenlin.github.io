@@ -19,7 +19,7 @@ SECTIONS = [
     (
         "policy-reports-and-others",
         "Policy Reports and Others",
-        ("policy-report", "pre-doctoral"),
+        ("policy-report", "unpublished-manuscript", "pre-doctoral"),
     ),
 ]
 
@@ -99,7 +99,7 @@ def render_paper(paper: dict, citation_id: str) -> list[str]:
     venue = paper.get("venue")
     venue_name = venue.get("name") if isinstance(venue, dict) else venue
     if (
-        paper.get("category") == "working-paper"
+        paper.get("category") in {"working-paper", "unpublished-manuscript"}
         and str(venue_name or "").strip().casefold() == "ssrn electronic journal"
     ):
         venue = None

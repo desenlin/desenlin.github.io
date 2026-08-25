@@ -12,7 +12,10 @@ renders and publishes it to GitHub Pages after each change to the `main` branch.
 
 Only `title`, `year`, `category`, and `citation` are required. Abstract, links,
 coauthors, honors, presentations, and media are optional and appear only when
-provided.
+provided. Supported categories are `publication`, `working-paper`,
+`work-in-progress`, `policy-report`, `unpublished-manuscript`, and
+`pre-doctoral`. The `unpublished-manuscript` category appears under Policy
+Reports and Others.
 
 Use a complete APA reference in `citation`. Each coauthor can include an
 `affiliation` and profile `url`; each honor, presentation, or media item can
