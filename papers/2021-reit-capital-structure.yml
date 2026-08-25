@@ -19,7 +19,11 @@ citation: "Lin, D., Pavlov, A. D., Steiner, E., & Wachter, S. M. (2021). REIT ca
 links:
   - label: "SSRN"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3830948"
-abstract: |
-  Do capital-structure adjustments reveal managerial skill only when firms can anticipate a crisis? Applying the same REIT sample design and preparation measures to the 2007–2009 financial crisis and the COVID-19 shock, this paper compares a foreseeable downturn with an unexpected one. Reducing leverage and extending debt maturity before 2007 predicted stronger crisis-period returns, but analogous pre-pandemic adjustments did not predict performance during 2020. The contrast suggests that preparation creates value—and signals managerial discipline—when adverse conditions are foreseeable, but should not be expected before truly unanticipated shocks.
+abstract: >-
+  This paper uses the contrast between the predictable 2007–2009 financial crisis
+  and the unexpected COVID-19 shock to test why pre-crisis REIT capital-structure
+  adjustments matter. Leverage reduction and maturity extension predicted returns
+  during the earlier crisis but not during the pandemic, supporting the interpretation
+  that preparation for foreseeable events signals managerial quality.
 presentations:
   - label: "ASSA–AREUEA Annual Meeting, Virtual, 2022"
