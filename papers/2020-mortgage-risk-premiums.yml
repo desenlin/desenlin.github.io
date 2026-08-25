@@ -11,6 +11,6 @@ abstract: |
 links:
   - { label: "Paper", url: "https://www.desenlin.com/_files/ugd/c836e6_b813051d1ba0462c8b4bf5859a3f68aa.pdf" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3086314" }
-  - { label: "Research Summary", url: "https://www.desenlin.com/llw20" }
+  - { label: "Research Summary", url: "research-summaries/mortgage-risk-premiums.html" }
 presentations:
   - { label: "AREUEA National Meeting, Washington, D.C., 2018" }
