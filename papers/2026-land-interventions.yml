@@ -6,7 +6,5 @@ authors:
   - { name: "Shane Jensen", affiliation: "University of Pennsylvania", url: "https://statistics.wharton.upenn.edu/profile/stjensen/" }
   - { name: "Susan Wachter", affiliation: "University of Pennsylvania", url: "https://real-estate.wharton.upenn.edu/profile/wachter/" }
 citation: "Lin, D., Jensen, S. T., & Wachter, S. M. (2026). Land interventions and urban vitality: Evidence from neighborhood traffic [Working paper]."
-abstract: |
-  This paper examines how vacant-land interventions shape neighborhood vitality during and after a severe economic shock. It combines Philadelphia lot-treatment records with SafeGraph visits to nearby points of interest, comparing greened lots, lots converted through construction, and untreated vacant lots across pre-shock, shock, and recovery periods. Greening is associated with greater stability in nearby visits relative to persistent vacancy, while construction produces a stronger rebound. Effects vary by destination type and are especially evident for amenities that draw visitors from outside the immediate neighborhood. Land interventions can strengthen local economic resilience through distinct amenity and development channels.
 links:
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7120664" }

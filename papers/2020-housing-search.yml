@@ -11,8 +11,13 @@ links:
     url: "https://www.desenlin.com/_files/ugd/c836e6_7fac1573d19c49318ddd9aeb1f2ddcfb.pdf"
   - label: "SSRN"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3714128"
-abstract: |
-  Using detailed Manhattan rental listings, this paper studies how broker size and market intermediation affect rents and listing duration. Apartments represented by larger brokers rent for less and leave the market faster, consistent with better matching and greater search efficiency. A directed-search model with capacity-constrained brokers explains these patterns and clarifies how broker scale shapes equilibrium outcomes. Counterfactual exercises examine policies that encourage brokerage entry and shift commission responsibility to landlords, showing how institutional changes can alter rents, search time, broker concentration, and welfare.
+abstract: >-
+  Using listing-agent matched data from Manhattan, this paper studies how broker
+  listing capacity affects rents and time on market. Larger brokers list at lower
+  rents and achieve shorter durations, patterns not fully explained by housing
+  amenities. A directed-search model links broker capacity constraints to tenant
+  coordination frictions and evaluates brokerage entry and rules shifting commission
+  liability from tenants to landlords.
 honors:
   - label: "Homer Hoyt Doctoral Dissertation Award, AREUEA, 2021"
     url: "https://www.areuea.org/hoyt-institute-doctoral-dissertation-award"

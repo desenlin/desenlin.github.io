@@ -6,8 +6,7 @@ authors:
   - { name: "Susan Wachter", affiliation: "University of Pennsylvania", url: "https://real-estate.wharton.upenn.edu/profile/wachter/" }
 venue: { name: "Real Estate Economics", url: "https://doi.org/10.1111/1540-6229.12467" }
 citation: "Acolin, A., Lin, D., & Wachter, S. M. (2024). Why do young adults coreside with their parents? Real Estate Economics, 52(1), 7–44. https://doi.org/10.1111/1540-6229.12467"
-abstract: |
-  The share of U.S. adults ages 18–29 living with parents has risen from slightly over one quarter in 1960 to nearly one half. This study examines how much of that increase reflects housing affordability in addition to labor-market changes and delayed marriage and childbearing. Using a Blinder–Oaxaca decomposition and market-level rent- and price-to-income measures, it finds that worsening housing affordability helps explain the rise in coresidence since 2000, but not earlier changes. Local housing costs are an important constraint on independent household formation among young adults.
+abstract: "The complete published abstract will be imported during the full content migration."
 links:
   - { label: "Journal", url: "https://doi.org/10.1111/1540-6229.12467" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4396015" }
