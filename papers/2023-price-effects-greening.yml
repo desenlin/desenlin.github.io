@@ -6,7 +6,7 @@ authors:
   - { name: "Susan Wachter", affiliation: "University of Pennsylvania", url: "https://real-estate.wharton.upenn.edu/profile/wachter/" }
 venue: { name: "Real Estate Economics", url: "https://doi.org/10.1111/1540-6229.12401" }
 citation: "Lin, D., Jensen, S. T., & Wachter, S. M. (2023). The price effects of greening vacant lots: How neighborhood attributes matter. Real Estate Economics, 51(3), 573–610. https://doi.org/10.1111/1540-6229.12401"
-abstract: "The complete published abstract will be imported during the full content migration."
+abstract: "We identify the effects of greening vacant lots on nearby housing prices and show how neighborhood attributes matter to these outcomes. Using data from a longstanding program in Philadelphia, we find that prices for houses within 1,000 feet of a greened vacant lot rise by about 4%, consistent with the literature, with the effect size increasing over time. Using the extensive data available in Philadelphia, we show how these effects vary by the attributes of the neighborhood in which they occur, with larger effects in areas with a high share of vacant land and higher-than-average median household incomes, with peak responses estimated at 19% and 15%, respectively. We demonstrate the importance of sample selection bias adjustment for identification of the effect of vacant lot greening."
 links:
   - { label: "Journal", url: "https://doi.org/10.1111/1540-6229.12401" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3899624" }
