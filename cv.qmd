@@ -10,7 +10,7 @@ Current appointment, education, publications, working papers, awards, profession
 
 [Open current CV](https://www.desenlin.com/_files/ugd/c836e6_9626f3c0de184c84896d942f76b793a5.pdf){.button-link}
 
-*Updated August 2026. Before launch, place the current PDF at `files/desen-lin-cv.pdf` and update this link once. Future replacements retain the same filename.*
+*Updated August 2026* 
 
 ## Education
 
