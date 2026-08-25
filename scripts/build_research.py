@@ -19,7 +19,7 @@ SECTIONS = [
     (
         "policy-reports-and-others",
         "Policy Reports and Others",
-        ("policy-report", "pre-doctoral"),
+        ("policy-report", "pre-doctoral", "unpublished-manuscript"),
     ),
 ]
 
