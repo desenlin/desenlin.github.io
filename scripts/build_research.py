@@ -17,9 +17,9 @@ SECTIONS = [
     ("working-paper", "Working Papers", ("working-paper",)),
     ("work-in-progress", "Work in Progress", ("work-in-progress",)),
     (
-        "policy-reports-and-others",
-        "Policy Reports and Others",
-        ("policy-report", "unpublished-manuscript", "pre-doctoral"),
+        "other-research",
+        "Other Research",
+        ("dissertation", "policy-report", "unpublished-manuscript", "pre-doctoral"),
     ),
 ]
 
@@ -41,7 +41,14 @@ def load_papers() -> list[dict]:
                 raise ValueError(f"{path.name}: missing required field '{required}'")
         record["_source"] = path.name
         papers.append(record)
-    return sorted(papers, key=lambda item: (-int(item["year"]), item["title"]))
+    return sorted(
+        papers,
+        key=lambda item: (
+            int(item.get("sort_order", 999)),
+            -int(item["year"]),
+            item["title"].casefold(),
+        ),
+    )
 
 
 def render_link(value: dict | str, css_class: str | None = None) -> str:
@@ -99,7 +106,7 @@ def render_paper(paper: dict, citation_id: str) -> list[str]:
     venue = paper.get("venue")
     venue_name = venue.get("name") if isinstance(venue, dict) else venue
     if (
-        paper.get("category") in {"working-paper", "unpublished-manuscript"}
+        paper.get("category") in {"working-paper", "dissertation", "unpublished-manuscript"}
         and str(venue_name or "").strip().casefold() == "ssrn electronic journal"
     ):
         venue = None

@@ -1,8 +1,9 @@
 # Copy this file, rename it with the year and a short title, and replace the values.
 title: "Paper title"
 year: 2026
-category: "working-paper" # publication | working-paper | work-in-progress | policy-report | unpublished-manuscript | pre-doctoral
+category: "working-paper" # publication | working-paper | work-in-progress | dissertation | policy-report | unpublished-manuscript | pre-doctoral
 status: "Working paper"
+# sort_order: 1 # Optional; lower numbers appear first within a section.
 authors:
   - name: "Coauthor Name"
     affiliation: "University Name"
