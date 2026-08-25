@@ -7,7 +7,7 @@ authors:
 venue: { name: "Real Estate Economics", url: "https://doi.org/10.1111/1540-6229.70028" }
 citation: "Acolin, A., Lin, D., & Wachter, S. M. (2026). Coresidence: How parental characteristics matter. Real Estate Economics, 54(3), 701–727. https://doi.org/10.1111/1540-6229.70028"
 abstract: |
-  The complete published abstract will be imported from the article during the full content migration. This record demonstrates the expandable abstract treatment without publishing an unverified summary.
+  Coresidence in the parental home is known to depend on young adult characteristics and market conditions, but there is more limited knowledge on whether or how parental characteristics matter. We model the coresidence outcome as a multigenerational joint optimization decision and use Panel Study of Income Dynamics data to examine the association of parental housing and wealth with young adult coresidence. The findings show that parental financial capacity is negatively associated with the likelihood of coresidence. Housing capacity, captured by the size and ownership status of the parental home, is positively associated with the likelihood of coresidence. We observe a stronger association of parental wealth and housing capacity with coresidence in less affordable markets and over time.
 links:
   - { label: "Journal", url: "https://doi.org/10.1111/1540-6229.70028" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5878922" }
