@@ -21,8 +21,8 @@ website:
   page-footer:
     left: "© Desen Lin"
     right:
-      - text: Photography
-        href: photos.qmd
+#      - text: Photography
+#        href: photos.qmd
       - text: Email
         href: mailto:desenlin@fullerton.edu
   open-graph: true
