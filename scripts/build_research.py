@@ -96,7 +96,9 @@ def render_list(label: str, values: list[dict | str] | None) -> list[str]:
 
 def render_paper(paper: dict, citation_id: str) -> list[str]:
     lines = ['::: {.paper-card}']
-    status = paper.get("status")
+    status = paper.get("status") or (
+        "Published article" if paper.get("category") == "publication" else None
+    )
     if status:
         lines.append(
             f'<div class="paper-topline"><span class="paper-status">{esc(status)}</span></div>'
