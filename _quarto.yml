@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: _site
   pre-render: python scripts/build_research.py
+  post-render: python scripts/build_local_files.py
 
 website:
   title: "Desen Lin"

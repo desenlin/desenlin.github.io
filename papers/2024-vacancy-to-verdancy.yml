@@ -7,7 +7,7 @@ abstract: "Land vacancy is a persistent phenomenon leading to various socioecono
 links:
   - { label: "Journal", url: "https://doi.org/10.1111/1540-6229.12487" }
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4754323" }
-  - { label: "Slides", url: "https://www.dropbox.com/scl/fi/6q4s12pufwjdp5xtaun96/Lin_OptionPricing_Slides.pdf?rlkey=vggesm8n44q366zlvj97a652g&st=w65hcbe1&dl=0" }
+  - { label: "Slides", url: "files/slides/lin-option-pricing-slides.pdf" }
   - { label: "Online Appendix", url: "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F1540-6229.12487&file=reec12487-sup-0001-OnlineAppendix.pdf" }
 honors:
   - { label: "Lincoln Institute Scholar, 2024", url: "https://www.lincolninst.edu/research-fellowship-opportunities/lincoln-institute-scholars-program-alumni/" }

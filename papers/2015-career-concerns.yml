@@ -6,6 +6,6 @@ status: "Pre-doctoral research"
 citation: "Lin, D. (2015). A literature review of career concerns: Theories and empirics [Unpublished manuscript]."
 abstract: "The paper conducts a literature review on the topic of career concerns covering both theory and empirics. Career concerns describe a class of dynamic games with asymmetric information, endogenous feedback and reputational concerns. As a mixture of adverse selection and moral hazard, the principal-agent models of career concerns are grouped into three categories based on different interpretation of the agent’s type: productivity, taste and preferences, and expertise. Career concerns possess explanatory power in many aspects of real life, from labor markets to social media, and from financial industries to political institutions."
 links:
-  - { label: "Paper", url: "https://www.desenlin.com/_files/ugd/c836e6_b4687662d2b74d5583b85b7a95959707.pdf" }
+  - { label: "Paper", url: "files/papers/career-concerns-literature-review.pdf" }
 presentations:
   - { label: "UC Santa Barbara Labor Economics Workshop, Santa Barbara, CA, 2015" }
