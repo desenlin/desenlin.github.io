@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600&display=swap");
+@font-face {
+  font-family: "Noto Serif SC Site";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/noto-serif-sc:vf@5.3.0/chinese-simplified-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+6797, U+7684, U+68EE;
+}
 
 :root {
   --navy: #081478;
@@ -29,7 +36,7 @@ a { color: var(--navy); text-underline-offset: 4px; }
 .eyebrow { margin: 0 0 12px; color: var(--orange); font-size: .74rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
 .home-hero { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(280px, .7fr); gap: 64px; align-items: center; min-height: 510px; }
 .home-hero h1 { font-size: clamp(2.6rem, 4.5vw, 3.8rem); margin-bottom: 0; }
-.chinese-name { margin: 12px 0 25px; color: var(--orange); font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif; font-size: 1.45rem; font-weight: 600; letter-spacing: .08em; }
+.chinese-name { margin: 12px 0 25px; color: var(--orange); font-family: "Noto Serif SC Site", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif; font-size: 1.45rem; font-weight: 600; letter-spacing: .08em; }
 .role { color: var(--navy); font-size: 1.18rem; font-weight: 700; }
 .profile-link { display: inline-block; margin: 18px 20px 0 0; font-size: .9rem; font-weight: 800; }
 .portrait-wrap { justify-self: end; width: min(100%, 360px); }
