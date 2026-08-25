@@ -1,0 +1,13 @@
+title: "Urban Demographic Decline and Housing Affordability"
+year: 2026
+category: "working-paper"
+status: "Working paper"
+authors:
+  - { name: "Arthur Acolin", affiliation: "University of Washington", url: "https://realestate.washington.edu/people/arthur-acolin/" }
+  - { name: "Kwan Ok Lee", affiliation: "National University of Singapore", url: "https://discovery.nus.edu.sg/3104-kwan-ok-lee" }
+  - { name: "Susan Wachter", affiliation: "University of Pennsylvania", url: "https://real-estate.wharton.upenn.edu/profile/wachter/" }
+citation: "Acolin, A., Lee, K.O., Lin, D., & Wachter, S. M. (2026). Urban Demographic Decline and Housing Affordability [Working paper]."
+abstract: |
+  Declining housing affordability may shape family formation by slowing young adults’ transition from the parental home to independent household formation. This paper examines parental coresidence as a household-level margin linking local housing conditions, intergenerational resources, and later marriage and childbearing. Using PSID data, we follow young adults aged 25-34 in 2013 through 2023 and compare those living with parents at baseline to similar young adults living independently. We use baseline individual, parental, and market characteristics to distinguish raw selection into coresidence from the adjusted relationship between coresidence and subsequent family formation. Baseline coresidence remains associated with lower later marriage and childbearing. However, this negative association is significantly weaker in less affordable housing markets. The findings suggest that coresidence is an important marker of young adults’ family-formation trajectories and that its relationship with family outcomes depends on whether living with parents reflects delayed independence in general, or is a housing-cost response. 
+#links:
+#  - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7120664" }
