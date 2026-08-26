@@ -15,7 +15,7 @@ description: "Associate Professor of Finance, California State University, Fulle
 
 I am an economist studying how housing markets, real estate finance, urban policy, and financial institutions shape household and neighborhood outcomes. I received my **Ph.D. in Economics** from the [University of Pennsylvania](https://www.upenn.edu/). My work lies at the intersection of real estate economics, urban economics, and household finance. 
 
-[Curriculum Vitae](cv.qmd){.profile-link} [CSUF Faculty Page](https://business.fullerton.edu/academics/finance/faculty-profiles?user=desenlin%40fullerton.edu){.profile-link} [Google Scholar](https://scholar.google.com/citations?hl=en&user=d3U_ZTEAAAAJ){.profile-link} [SSRN](https://papers.ssrn.com/sol3/results.cfm?txtKey_Words=Desen%20Lin){.profile-link} [LinkedIn](https://www.linkedin.com/in/desen-lin-ph-d-46aa5338){.profile-link}
+[Curriculum Vitae](cv.qmd){.profile-link} [CSUF Faculty Page](https://business.fullerton.edu/academics/finance/faculty-profiles?user=desenlin%40fullerton.edu){.profile-link} [Google Scholar](https://scholar.google.com/citations?hl=en&user=d3U_ZTEAAAAJ){.profile-link} [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2861890){.profile-link} [LinkedIn](https://www.linkedin.com/in/desen-lin-ph-d-46aa5338){.profile-link}
 :::
 
 ::: {.portrait-wrap}
