@@ -26,6 +26,36 @@ Applied analysis of property cash flows, financing, risk, valuation, and investm
 :::
 :::
 
+## Interactive teaching tools
+
+These browser-based tools support core concepts in **FIN 355: Real Estate Investment Analysis**. They are designed for classroom demonstration and independent exploration.
+
+::: {.tool-grid}
+::: {.tool-card}
+<span class="tool-topic">FIN 355 · Debt financing</span>
+
+### How Amortization Changes a Loan Payment
+
+Explore how each level mortgage payment is divided between interest and principal, and how the principal share rises over the loan term.
+
+[Open the amortization tool](https://desenlin.com/FIN355/amortization.html){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
+<span class="tool-topic">FIN 355 · Investment returns</span>
+
+### Internal Rate of Return as a Zero-NPV Solution
+
+Visualize IRR as a zero-NPV solution, edit annual cash flows, and see why nonconventional cash flows may produce multiple IRRs or no real IRR.
+
+[Open the IRR tool](https://desenlin.com/FIN355/irr.html){.tool-link target="_blank" rel="noopener"}
+:::
+:::
+
+::: {.tool-collection}
+[Browse the complete FIN 355 interactive-tool collection](https://github.com/desenlin/FIN355){target="_blank" rel="noopener"}
+:::
+
 ## Previous teaching experience
 
 **University of Pennsylvania**  
