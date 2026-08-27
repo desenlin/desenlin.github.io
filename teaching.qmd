@@ -8,6 +8,14 @@ pagetitle: "Teaching | Desen Lin"
 
 At Cal State Fullerton, I teach courses in real estate principles and investment analysis, with an emphasis on applied market evidence, financial modeling, and professional practice.
 
+<nav class="research-jump" aria-label="Teaching sections">
+<a href="#current-courses">Current Courses</a>
+<a href="#interactive-teaching-tools">Interactive Teaching Tools</a>
+<a href="#previous-teaching-experience">Previous Teaching Experience</a>
+</nav>
+
+## Current courses {#current-courses}
+
 ::: {.course-grid}
 ::: {.course-card}
 <span class="course-code">FIN 351</span>
@@ -26,7 +34,7 @@ Applied analysis of property cash flows, financing, risk, valuation, and investm
 :::
 :::
 
-## Interactive teaching tools
+## Interactive teaching tools {#interactive-teaching-tools}
 
 These browser-based tools support core concepts in **FIN 355: Real Estate Investment Analysis**. They are designed for classroom demonstration and independent exploration.
 
@@ -87,7 +95,7 @@ Solve the same development model in two directions: find the minimum rent that s
 [Browse the complete FIN 355 interactive-tool collection](https://github.com/desenlin/FIN355){target="_blank" rel="noopener"}
 ::: -->
 
-## Previous teaching experience
+## Previous teaching experience {#previous-teaching-experience}
 
 **University of Pennsylvania**  
 Statistics for Economists; Public Finance; Urban Real Estate Economics; International Housing Comparisons; Intermediate Microeconomics.
