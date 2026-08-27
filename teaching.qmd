@@ -3,6 +3,10 @@ pagetitle: "Teaching | Desen Lin"
 ---
 
 <style>
+.course-card > p {
+  margin-bottom: 12px;
+}
+
 .course-card > section.level2 > h2 {
   margin: 10px 0;
 }
