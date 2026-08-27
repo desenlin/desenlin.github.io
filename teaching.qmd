@@ -2,6 +2,12 @@
 pagetitle: "Teaching | Desen Lin"
 ---
 
+<style>
+.course-card > section.level2 > h2 {
+  margin: 10px 0;
+}
+</style>
+
 <p class="eyebrow">Teaching</p>
 
 # Connecting economic reasoning to real estate decisions.
