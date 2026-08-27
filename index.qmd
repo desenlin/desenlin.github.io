@@ -32,9 +32,9 @@ I received my **Ph.D. in Economics** from the [University of Pennsylvania](https
 
 ::: {.contact-grid}
 <div class="contact-affiliation">
-<p class="contact-title">Department of Finance</p>
-<p>College of Business and Economics<br>
-California State University, Fullerton</p>
+<p class="contact-title">[Department of Finance](https://business.fullerton.edu/academics/finance)</p>
+<p>[College of Business and Economics](https://business.fullerton.edu/)<br>
+[California State University, Fullerton](https://www.fullerton.edu/)</p>
 </div>
 
 <div class="contact-address">
