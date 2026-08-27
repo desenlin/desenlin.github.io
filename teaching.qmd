@@ -50,6 +50,16 @@ Visualize IRR as a zero-NPV solution, edit annual cash flows, and see why noncon
 
 [Open the IRR tool](https://desenlin.com/FIN355/irr.html){.tool-link target="_blank" rel="noopener"}
 :::
+
+::: {.tool-card}
+<span class="tool-topic">FIN 355 · Structured finance</span>
+
+### CMBS Tranching and the First-Loss Waterfall
+
+Build a CMBS capital stack, trace losses from junior to senior bonds, and connect tranche yields to pool pricing and lender economics.
+
+[Open the CMBS tranching tool](https://desenlin.com/FIN355/cmbs-tranching.html){.tool-link target="_blank" rel="noopener"}
+:::
 :::
 
 <!--
