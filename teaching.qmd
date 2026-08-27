@@ -60,6 +60,16 @@ Build a CMBS capital stack, trace losses from junior to senior bonds, and connec
 
 [Open the CMBS tranching tool](https://desenlin.com/FIN355/cmbs-tranching.html){.tool-link target="_blank" rel="noopener"}
 :::
+
+::: {.tool-card}
+<span class="tool-topic">FIN 355 · Commercial leases</span>
+
+### Net Effective Rent and Lease NPV
+
+See how concessions change annual net effective rent, then compare constant rent growth with a delayed rent bump using multi-year landlord NPV.
+
+[Open the net effective rent tool](https://desenlin.com/FIN355/net-effective-rent.html){.tool-link target="_blank" rel="noopener"}
+:::
 :::
 
 <!--
