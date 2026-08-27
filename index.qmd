@@ -32,13 +32,13 @@ I received my **Ph.D. in Economics** from the [University of Pennsylvania](https
 
 ::: {.contact-grid}
 <div class="contact-affiliation">
-<p class="contact-title">[Department of Finance](https://business.fullerton.edu/academics/finance)</p>
-<p>[College of Business and Economics](https://business.fullerton.edu/)<br>
-[California State University, Fullerton](https://www.fullerton.edu/)</p>
+<p class="contact-title"><a href="https://business.fullerton.edu/academics/finance" style="text-decoration: none;">Department of Finance</a></p>
+<p><a href="https://business.fullerton.edu/" style="text-decoration: none;">College of Business and Economics</a><br>
+<a href="https://www.fullerton.edu/" style="text-decoration: none;">California State University, Fullerton</a></p>
 </div>
 
 <div class="contact-address">
-<p><a href="mailto:desenlin@fullerton.edu">desenlin@fullerton.edu</a><br>
+<p><a href="mailto:desenlin@fullerton.edu" style="text-decoration: none;">desenlin@fullerton.edu</a><br>
 800 N. State College Blvd., SGMH 5178<br>
 Fullerton, California 92831</p>
 </div>
