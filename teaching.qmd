@@ -108,6 +108,16 @@ Solve the same development model in two directions: find the minimum rent that s
 
 [Open the development feasibility tool](https://desenlin.com/FIN355/development-feasibility.html){.tool-link target="_blank" rel="noopener"}
 :::
+
+::: {.tool-card .tool-card-wide}
+<span class="tool-topic">FIN 355 · Exit strategies</span>
+
+### Sale, Refinancing, or Like-Kind Exchange?
+
+Compare liquidity, retained real estate equity, debt, transaction costs, and current taxes across three exit strategies, including when cash received in a 1031 exchange becomes taxable boot.
+
+[Open the exit strategies tool](https://desenlin.com/FIN355/exit-strategies.html){.tool-link target="_blank" rel="noopener"}
+:::
 :::
 
 <!--
