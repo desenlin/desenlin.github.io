@@ -46,9 +46,19 @@ Applied analysis of property cash flows, financing, risk, valuation, and investm
 
 ## Interactive teaching tools {#interactive-teaching-tools}
 
-These browser-based tools support core concepts in **FIN 355: Real Estate Investment Analysis**. They are designed for classroom demonstration and independent exploration.
+These browser-based tools support core concepts in **FIN 351: Real Estate Principles** and **FIN 355: Real Estate Investment Analysis**. They are designed for classroom demonstration and independent exploration.
 
 ::: {.tool-grid}
+::: {.tool-card}
+<span class="tool-topic">FIN 351 · Urban land economics</span>
+
+### Bid-Rent Curves and Urban Land Use
+
+Build equilibrium curves for two household types, compare closed- and open-city responses, explore production bids, and determine which building design supports the highest land rent.
+
+[Open the bid-rent tool](https://desenlin.com/FIN351/bid-rent.html){.tool-link target="_blank" rel="noopener"}
+:::
+
 ::: {.tool-card}
 <span class="tool-topic">FIN 355 · Debt financing</span>
 
