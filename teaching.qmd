@@ -60,6 +60,16 @@ Build equilibrium curves for two household types, compare closed- and open-city 
 :::
 
 ::: {.tool-card}
+<span class="tool-topic">FIN 351 · Residential mortgage finance</span>
+
+### Mortgage Cost and Payment Risk
+
+See how rates, up-front charges, and payoff timing change APR and effective borrowing cost, then compare conventional, interest-only amortizing, and Option ARM payment and balance paths.
+
+[Open the mortgage comparison tool](https://desenlin.com/FIN351/mortgage-choice.html){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
 <span class="tool-topic">FIN 355 · Debt financing</span>
 
 ### How Amortization Changes a Loan Payment
