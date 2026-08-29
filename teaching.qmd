@@ -70,6 +70,16 @@ See how rates, up-front charges, and payoff timing change APR and effective borr
 :::
 
 ::: {.tool-card}
+<span class="tool-topic">FIN 351 · Commercial mortgage finance</span>
+
+### Commercial Mortgage Leverage and Refinancing
+
+Compare conventional and mezzanine-debt capital structures, see how leverage changes required equity and equity return, and evaluate refinancing using NPV, IRR, and break-even conditions.
+
+[Open the commercial mortgage tool](https://desenlin.com/FIN351/commercial-mortgage.html){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
 <span class="tool-topic">FIN 355 · Debt financing</span>
 
 ### How Amortization Changes a Loan Payment
