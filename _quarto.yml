@@ -7,6 +7,7 @@ project:
 website:
   title: "Desen Lin"
   site-url: "https://desenlin.com"
+  google-analytics: "G-MDGMSFPEH2"
   description: "Academic website of Desen Lin, real estate economist and Associate Professor of Finance, California State University, Fullerton."
   navbar:
     logo: images/csuf-emblem.jpg
