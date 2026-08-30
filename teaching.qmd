@@ -160,10 +160,10 @@ Compare three valuation approaches and see how operating forecasts, required ret
 :::
 :::
 
-<!--
 ::: {.tool-collection}
+[Browse the complete FIN 351 interactive-tool collection](https://github.com/desenlin/FIN351){target="_blank" rel="noopener"}  
 [Browse the complete FIN 355 interactive-tool collection](https://github.com/desenlin/FIN355){target="_blank" rel="noopener"}
-::: -->
+:::
 
 ## Previous teaching experience {#previous-teaching-experience}
 
