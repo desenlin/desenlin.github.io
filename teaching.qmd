@@ -48,6 +48,23 @@ Applied analysis of property cash flows, financing, risk, valuation, and investm
 
 These browser-based tools support core concepts in **FIN 351: Real Estate Principles** and **FIN 355: Real Estate Investment Analysis**. They are designed for classroom demonstration and independent exploration.
 
+<div class="tool-collection-grid" aria-label="Complete interactive-tool collections">
+<a class="course-collection-button" href="https://desenlin.com/FIN351/" target="_blank" rel="noopener">
+<span class="course-collection-copy">
+<span class="course-collection-code">FIN 351</span>
+<span class="course-collection-title">Real Estate Principles</span>
+</span>
+<span class="course-collection-action">Browse collection <span aria-hidden="true">→</span></span>
+</a>
+<a class="course-collection-button" href="https://desenlin.com/FIN355/" target="_blank" rel="noopener">
+<span class="course-collection-copy">
+<span class="course-collection-code">FIN 355</span>
+<span class="course-collection-title">Real Estate Investment Analysis</span>
+</span>
+<span class="course-collection-action">Browse collection <span aria-hidden="true">→</span></span>
+</a>
+</div>
+
 ::: {.tool-grid}
 ::: {.tool-card}
 <span class="tool-topic">FIN 351 · Urban land economics</span>
@@ -160,10 +177,11 @@ Compare three valuation approaches and see how operating forecasts, required ret
 :::
 :::
 
-::: {.tool-collection}
-[Browse the complete FIN 351 interactive-tool collection](https://github.com/desenlin/FIN351){target="_blank" rel="noopener"}  
-[Browse the complete FIN 355 interactive-tool collection](https://github.com/desenlin/FIN355){target="_blank" rel="noopener"}
-:::
+<div class="tool-source-links" aria-label="Source repositories and licenses">
+<span class="tool-source-label">Source and licensing</span>
+<a href="https://github.com/desenlin/FIN351" target="_blank" rel="noopener">FIN 351 on GitHub</a>
+<a href="https://github.com/desenlin/FIN355" target="_blank" rel="noopener">FIN 355 on GitHub</a>
+</div>
 
 ## Previous teaching experience {#previous-teaching-experience}
 
