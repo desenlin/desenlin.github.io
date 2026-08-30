@@ -33,7 +33,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles/site.css
+    css: styles/site-20260830.css
     toc: false
     smooth-scroll: true
 
