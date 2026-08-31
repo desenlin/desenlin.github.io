@@ -67,8 +67,8 @@ These browser-based tools support core concepts in **FIN 351: Real Estate Princi
 
 ::: {.tool-grid}
 ::: {.tool-card .tool-card-featured}
-<span class="tool-topic">FIN 355 · Advanced development analysis</span>
-<span class="tool-level">Advanced interactive studio</span>
+<span class="tool-topic">FIN 355 · Development feasibility</span>
+<span class="tool-level">Interactive planning studio</span>
 
 ### Site Feasibility Sandbox
 
