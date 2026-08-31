@@ -74,7 +74,7 @@ These browser-based tools support core concepts in **FIN 351: Real Estate Princi
 
 Draw and edit a parcel and building footprints, then connect site geometry, setbacks, lot coverage, stories, and FAR to live development-capacity measures and binding constraints.
 
-[Open the site feasibility sandbox](https://desenlin.github.io/site-feasibility-sandbox/){.tool-link target="_blank" rel="noopener"}
+[Open the site feasibility sandbox](https://desenlin.com/site-feasibility-sandbox/){.tool-link target="_blank" rel="noopener"}
 :::
 
 ::: {.tool-card}
