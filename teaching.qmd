@@ -66,6 +66,17 @@ These browser-based tools support core concepts in **FIN 351: Real Estate Princi
 </div>
 
 ::: {.tool-grid}
+::: {.tool-card .tool-card-featured}
+<span class="tool-topic">FIN 355 · Advanced development analysis</span>
+<span class="tool-level">Advanced interactive studio</span>
+
+### Site Feasibility Sandbox
+
+Draw and edit a parcel and building footprints, then connect site geometry, setbacks, lot coverage, stories, and FAR to live development-capacity measures and binding constraints.
+
+[Open the site feasibility sandbox](https://desenlin.github.io/site-feasibility-sandbox/){.tool-link target="_blank" rel="noopener"}
+:::
+
 ::: {.tool-card}
 <span class="tool-topic">FIN 351 · Urban land economics</span>
 
@@ -181,6 +192,7 @@ Compare three valuation approaches and see how operating forecasts, required ret
 <span class="tool-source-label">Source and licensing</span>
 <a href="https://github.com/desenlin/FIN351" target="_blank" rel="noopener">FIN 351 on GitHub</a>
 <a href="https://github.com/desenlin/FIN355" target="_blank" rel="noopener">FIN 355 on GitHub</a>
+<a href="https://github.com/desenlin/site-feasibility-sandbox" target="_blank" rel="noopener">Site feasibility sandbox on GitHub</a>
 </div>
 
 ## Previous teaching experience {#previous-teaching-experience}
