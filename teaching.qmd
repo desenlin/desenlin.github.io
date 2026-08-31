@@ -167,6 +167,16 @@ Solve the same development model in two directions: find the minimum rent that s
 :::
 
 ::: {.tool-card}
+<span class="tool-topic">FIN 355 · Ground leases</span>
+
+### Four Models for Ground-Lease Valuation
+
+Compare two residual land-value approaches with two direct building-NOI approaches, and see how rent steps, NOI growth, discount rates, and cap rates affect whether the four estimates converge.
+
+[Open the ground-lease valuation tool](https://desenlin.com/FIN355/ground-lease-valuation.html){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
 <span class="tool-topic">FIN 355 · Exit strategies</span>
 
 ### Sale, Refinancing, or Like-Kind Exchange?
