@@ -1,0 +1,49 @@
+name: Site correction
+description: Report a broken link, typo, metadata error, accessibility issue, or website defect.
+title: "[Site correction]: "
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thank you for helping improve the website. Please do not include
+        confidential, student, or personally identifiable information.
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      description: Link to the page where the issue appears.
+      placeholder: https://desenlin.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Type of issue
+      options:
+        - Broken link
+        - Typographical or factual correction
+        - Research metadata
+        - Accessibility
+        - Layout or browser behavior
+        - Other website issue
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior or text
+      description: Describe what is currently shown and why it should change.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+      description: Provide corrected text, a working link, or the expected behavior if available.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have not included confidential, student, or personally identifiable information.
+          required: true
