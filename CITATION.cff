@@ -1,0 +1,22 @@
+cff-version: "1.2.0"
+message: >-
+  If you reuse substantial original content or source code from this website,
+  please cite it using the metadata below.
+title: "Desen Lin academic website"
+type: software
+authors:
+  - family-names: "Lin"
+    given-names: "Desen"
+    orcid: "https://orcid.org/0000-0002-1042-2050"
+date-released: 2026-08-24
+repository-code: "https://github.com/desenlin/desenlin.github.io"
+url: "https://desenlin.com"
+abstract: >-
+  Source code and structured content for Desen Lin's academic website,
+  including research, teaching, and curriculum vitae pages.
+keywords:
+  - academic website
+  - Quarto
+  - real estate economics
+  - real estate finance
+  - urban economics
