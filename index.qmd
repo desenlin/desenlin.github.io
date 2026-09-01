@@ -7,9 +7,7 @@ description: "Associate Professor of Finance, California State University, Fulle
 ::: {.home-copy}
 <p class="eyebrow">Real estate · cities · households</p>
 
-# Desen Lin
-
-<p class="chinese-name">林的森</p>
+<h1 class="home-name">Desen Lin <span class="chinese-name" lang="zh-Hans">林的森</span></h1>
 
 <p class="role">Associate Professor of Finance, California State University, Fullerton</p>
 
