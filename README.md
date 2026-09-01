@@ -60,14 +60,17 @@ collaborator can merge or publish them.
 
 ## Citation
 
-If you reuse substantial original content or the site's source code in academic
-or instructional work, please use the repository's **Cite this repository**
-link. Citation metadata are maintained in [CITATION.cff](CITATION.cff).
+If you reuse the site's source code, use the repository's **Cite this
+repository** link. GitHub generates APA and BibTeX entries from
+[CITATION.cff](CITATION.cff).
 
-Suggested reference:
+Suggested reference for the website and its original content:
 
 > Lin, D. (2026). *Desen Lin academic website* [Computer software].
 > https://desenlin.com
+
+GitHub's repository citation instead links to the preserved source and version
+history at `https://github.com/desenlin/desenlin.github.io`.
 
 ## License and attribution
 
