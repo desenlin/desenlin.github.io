@@ -35,12 +35,12 @@ h2 { margin-top: 3.7rem; font-weight: 500; }
 a { color: var(--navy); text-underline-offset: 4px; }
 .eyebrow { margin: 0 0 12px; color: var(--orange); font-size: .74rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
 .home-hero { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(280px, .7fr); gap: 64px; align-items: center; min-height: 510px; }
-.home-hero h1 { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: .32em; row-gap: .08em; font-size: clamp(2.6rem, 4.5vw, 3.8rem); margin-bottom: .55rem; }
-.chinese-name { color: var(--orange); font-family: "Noto Serif SC Site", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif; font-size: clamp(1.15rem, 1.7vw, 1.45rem); font-weight: 600; letter-spacing: .08em; line-height: 1; white-space: nowrap; }
+.home-hero h1 { font-size: clamp(2.6rem, 4.5vw, 3.8rem); margin-bottom: 0; }
+.chinese-name { margin: 12px 0 25px; color: var(--orange); font-family: "Noto Serif SC Site", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif; font-size: 1.45rem; font-weight: 600; letter-spacing: .08em; }
 .role { color: var(--navy); font-size: 1.18rem; font-weight: 700; }
 .profile-link { display: inline-block; margin: 18px 20px 0 0; font-size: .9rem; font-weight: 800; }
 .portrait-wrap { justify-self: end; width: min(100%, 360px); }
-.portrait-photo { display: block; width: 100%; aspect-ratio: 4/5; border: 1px solid var(--line); border-radius: 0; object-fit: cover; object-position: center top; box-shadow: 18px 18px 0 #edf0fb; }
+.portrait-photo { display: block; width: 100%; aspect-ratio: 7/10; border: 1px solid var(--line); border-radius: 0; object-fit: cover; object-position: center top; box-shadow: 18px 18px 0 #edf0fb; }
 .home-section { margin-top: 70px; padding-top: 70px; border-top: 1px solid var(--line); }
 .featured-grid, .course-grid, .photo-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
 .featured-paper, .course-card, .photo-card { padding: 28px; background: var(--paper); }
