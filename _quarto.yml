@@ -34,7 +34,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles/site-20260830b.css
+    css: styles/site-20260901.css
     toc: false
     smooth-scroll: true
 
