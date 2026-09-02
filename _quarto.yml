@@ -35,6 +35,7 @@ format:
   html:
     theme: cosmo
     css: styles/site-20260901.css
+    include-after-body: includes/analytics-events.html
     toc: false
     smooth-scroll: true
 

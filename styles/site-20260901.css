@@ -39,6 +39,9 @@ a { color: var(--navy); text-underline-offset: 4px; }
 .chinese-name { margin: 12px 0 25px; color: var(--orange); font-family: "Noto Serif SC Site", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif; font-size: 1.45rem; font-weight: 600; letter-spacing: .08em; }
 .role { color: var(--navy); font-size: 1.18rem; font-weight: 700; }
 .profile-link { display: inline-block; margin: 18px 20px 0 0; font-size: .9rem; font-weight: 800; }
+.home-feature-link { color: var(--navy); font-weight: 800; text-decoration: none; }
+.home-feature-link:hover { color: var(--orange); text-decoration: none; }
+.home-feature-link:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; }
 .portrait-wrap { justify-self: end; width: min(100%, 360px); }
 .portrait-photo { display: block; width: 100%; aspect-ratio: 7/10; border: 1px solid var(--line); border-radius: 0; object-fit: cover; object-position: center top; box-shadow: 18px 18px 0 #edf0fb; }
 .home-section { margin-top: 70px; padding-top: 70px; border-top: 1px solid var(--line); }

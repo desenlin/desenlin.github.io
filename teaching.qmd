@@ -20,6 +20,7 @@ At Cal State Fullerton, I teach courses in real estate principles and investment
 
 <nav class="research-jump" aria-label="Teaching sections">
 <a href="#current-courses">Current Courses</a>
+<a href="#real-estate-analytics">Real Estate Analytics</a>
 <a href="#interactive-teaching-tools">Interactive Teaching Tools</a>
 <a href="#previous-teaching-experience">Previous Teaching Experience</a>
 </nav>
@@ -41,6 +42,22 @@ An introduction to property rights, markets, finance, valuation, brokerage, and 
 ## Real Estate Investment Analysis
 
 Applied analysis of property cash flows, financing, risk, valuation, and investment decisions using spreadsheet models and case-based work.
+:::
+:::
+
+## Real estate analytics {#real-estate-analytics}
+
+Interactive data platforms for examining housing markets, spatial variation, and real estate cycles.
+
+::: {.tool-grid}
+::: {.tool-card}
+<p class="tool-card-meta"><span class="tool-topic">Southern California housing markets</span><span class="tool-level">Data analytics</span></p>
+
+### Housing Market Lab
+
+Compare home values, rents, price–rent multiples, and housing cycles across Orange and Los Angeles counties at the city/community and ZIP levels.
+
+[Open Housing Market Lab](https://desenlin.com/housing-market-lab/){.tool-link target="_blank" rel="noopener" data-analytics-event="housing_market_lab_click" data-analytics-location="teaching"}
 :::
 :::
 
@@ -202,6 +219,7 @@ Compare three valuation approaches and see how operating forecasts, required ret
 <a href="https://github.com/desenlin/FIN351" target="_blank" rel="noopener">FIN 351 on GitHub</a>
 <a href="https://github.com/desenlin/FIN355" target="_blank" rel="noopener">FIN 355 on GitHub</a>
 <a href="https://github.com/desenlin/site-feasibility-sandbox" target="_blank" rel="noopener">Site feasibility sandbox on GitHub</a>
+<a href="https://github.com/desenlin/housing-market-lab" target="_blank" rel="noopener">Housing Market Lab on GitHub</a>
 </div>
 
 ## Previous teaching experience {#previous-teaching-experience}
