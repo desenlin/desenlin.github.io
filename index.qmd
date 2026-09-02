@@ -15,9 +15,9 @@ description: "Associate Professor of Finance, California State University, Fulle
 
 I am an economist studying how housing markets, real estate finance, urban policy, and financial institutions shape household and neighborhood outcomes. My work lies at the intersection of real estate economics, urban economics, and household finance. 
 
-I also develop [**interactive teaching tools**](teaching.qmd#interactive-teaching-tools){.home-feature-link} for courses in *Real Estate Principles* and *Real Estate Investment Analysis*, as well as [**Housing Market Lab**](https://desenlin.com/housing-market-lab/){.home-feature-link target="_blank" rel="noopener" data-analytics-event="housing_market_lab_click" data-analytics-location="home"}, an interactive platform for exploring local and regional housing-market data.
+I also develop [**interactive teaching tools**](teaching.qmd#interactive-teaching-tools){.home-feature-link target="_blank" rel="noopener" data-analytics-event="teaching_tools_click" data-analytics-location="home"} for courses in *Real Estate Principles* and *Real Estate Investment Analysis*, as well as [**Housing Market Lab**](https://desenlin.com/housing-market-lab/){.home-feature-link target="_blank" rel="noopener" data-analytics-event="housing_market_lab_click" data-analytics-location="home"}, an interactive platform for exploring local and regional housing-market data.
 
-I received my **Ph.D. in Economics** from the [University of Pennsylvania](https://economics.sas.upenn.edu) in 2021. 
+I received my **Ph.D. in Economics** from the [**University of Pennsylvania**](https://economics.sas.upenn.edu){.home-feature-link target="_blank" rel="noopener"} in 2021. 
 
 [CV](cv.qmd){.profile-link} [CSUF Faculty Page](https://business.fullerton.edu/academics/finance/faculty-profiles?user=desenlin%40fullerton.edu){.profile-link} [Google Scholar](https://scholar.google.com/citations?hl=en&user=d3U_ZTEAAAAJ){.profile-link} [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2861890){.profile-link} [ORCID](https://orcid.org/0000-0002-1042-2050){.profile-link} [LinkedIn](https://www.linkedin.com/in/desen-lin-ph-d-46aa5338){.profile-link}
 :::
