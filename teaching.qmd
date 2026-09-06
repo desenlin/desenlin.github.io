@@ -51,7 +51,7 @@ Open, browser-based projects supporting data exploration, evidence-centered lear
 
 ::: {.tool-grid}
 ::: {.tool-card}
-<p class="tool-card-meta"><span class="tool-topic">Housing markets and spatial analytics</span><span class="tool-level">Data platform</span></p>
+<p class="tool-card-meta"><span class="tool-topic">Real estate analytics</span><span class="tool-level">Data platform</span></p>
 
 ### Housing Market Lab
 
