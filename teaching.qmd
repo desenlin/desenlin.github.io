@@ -230,6 +230,7 @@ Compare three valuation approaches and see how operating forecasts, required ret
 <a href="https://github.com/desenlin/FIN355" target="_blank" rel="noopener">FIN 355 on GitHub</a>
 <a href="https://github.com/desenlin/site-feasibility-sandbox" target="_blank" rel="noopener">Site feasibility sandbox on GitHub</a>
 <a href="https://github.com/desenlin/housing-market-lab" target="_blank" rel="noopener">Housing Market Lab on GitHub</a>
+<a href="https://github.com/linguistics-teaching-labs" target="_blank" rel="noopener">Linguistics Teaching Labs on GitHub</a>
 </div>
 
 ## Previous teaching experience {#previous-teaching-experience}
