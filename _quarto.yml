@@ -34,7 +34,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles/site-20260906-v2.css
+    css: styles/site-20260906-v3.css
     include-after-body: includes/analytics-events.html
     toc: false
     smooth-scroll: true
