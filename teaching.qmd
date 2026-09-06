@@ -20,7 +20,7 @@ At Cal State Fullerton, I teach courses in real estate principles and investment
 
 <nav class="research-jump" aria-label="Teaching sections">
 <a href="#current-courses">Current Courses</a>
-<a href="#real-estate-analytics">Real Estate Analytics</a>
+<a href="#real-estate-analytics">Teaching Labs and Data Platforms</a>
 <a href="#interactive-teaching-tools">Interactive Teaching Tools</a>
 <a href="#previous-teaching-experience">Previous Teaching Experience</a>
 </nav>
@@ -45,19 +45,29 @@ Applied analysis of property cash flows, financing, risk, valuation, and investm
 :::
 :::
 
-## Real estate analytics {#real-estate-analytics}
+## Teaching labs and data platforms {#real-estate-analytics}
 
-Interactive data platforms for examining housing markets, spatial variation, and real estate cycles.
+Open, browser-based projects supporting data exploration, evidence-centered learning, and transparent analytical reasoning across real estate and language.
 
 ::: {.tool-grid}
 ::: {.tool-card}
-<p class="tool-card-meta"><span class="tool-topic">Southern California housing markets</span><span class="tool-level">Data analytics</span></p>
+<p class="tool-card-meta"><span class="tool-topic">Housing markets and spatial analytics</span><span class="tool-level">Data platform</span></p>
 
 ### Housing Market Lab
 
-Compare home values, rents, price–rent multiples, and housing cycles across Orange and Los Angeles counties at the city/community and ZIP levels.
+Explore home values, rents, price–rent relationships, inventory, market speed, and listing and sales dynamics across Southern California communities and ZIP codes, with broader metropolitan comparisons.
 
 [Open Housing Market Lab](https://desenlin.com/housing-market-lab/){.tool-link target="_blank" rel="noopener" data-analytics-event="housing_market_lab_click" data-analytics-location="teaching"}
+:::
+
+::: {.tool-card}
+<p class="tool-card-meta"><span class="tool-topic">Language and computation</span><span class="tool-level">Teaching collection</span></p>
+
+### Linguistics Teaching Labs
+
+An instructional project featuring the Nature of Language Lab and Computational Linguistics Lab—browser-based activities that help students examine linguistic evidence and inspect transparent computational models.
+
+[Explore Linguistics Teaching Labs](https://linguistics-teaching-labs.github.io/){.tool-link target="_blank" rel="noopener" data-analytics-event="linguistics_teaching_labs_click" data-analytics-location="teaching"}
 :::
 :::
 
