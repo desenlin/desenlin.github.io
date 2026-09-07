@@ -134,6 +134,16 @@ Compare conventional and mezzanine-debt capital structures, see how leverage cha
 :::
 
 ::: {.tool-card}
+<span class="tool-topic">FIN 355 · Market research</span>
+
+### Market Research Explorer
+
+Classify observations through supply, demand, property-and-lease, and local-context lenses, then compare two investments with the same projected return but different levels of uncertainty.
+
+[Open the market research explorer](https://desenlin.com/FIN355/market-research-explorer.html){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
 <span class="tool-topic">FIN 355 · Debt financing</span>
 
 ### How Amortization Changes a Loan Payment
