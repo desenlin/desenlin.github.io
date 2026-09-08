@@ -20,7 +20,7 @@ I develop public, browser-based projects that connect academic research, classro
 ## Featured platform {#housing-market-lab}
 
 ::: {.lab-feature}
-<p class="lab-feature-meta"><span class="tool-topic">Real estate analytics</span><span class="tool-level">Public data platform</span></p>
+<p class="lab-feature-meta"><span class="tool-topic">Real estate analytics</span><span class="tool-level">Data platform</span></p>
 
 ### Housing Market Lab
 
@@ -78,7 +78,7 @@ Draw and edit a parcel and building footprints, then connect site geometry, setb
 ## Linguistics Teaching Labs {#linguistics-teaching-labs}
 
 ::: {.lab-collection-panel}
-<p class="tool-card-meta"><span class="tool-topic">Language and computation</span><span class="tool-level">Collaborative teaching collection</span></p>
+<p class="tool-card-meta"><span class="tool-topic">Language and computation</span><span class="tool-level">Teaching collection</span></p>
 
 ### Examine language through evidence and transparent models
 
