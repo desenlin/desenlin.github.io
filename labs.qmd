@@ -19,8 +19,8 @@ I develop public, browser-based projects that connect academic research, classro
 
 ## Featured platform {#housing-market-lab}
 
-::: {.lab-feature .lab-half-card}
-<p class="lab-feature-meta"><span>Real estate analytics</span><span>Public data platform</span></p>
+::: {.lab-feature}
+<p class="lab-feature-meta"><span class="tool-topic">Real estate analytics</span><span class="tool-level">Public data platform</span></p>
 
 ### Housing Market Lab
 
@@ -44,7 +44,7 @@ The platform supports three related uses: helping students interpret local housi
 
 These interactive tools translate concepts from **FIN 351: Real Estate Principles** and **FIN 355: Real Estate Investment Analysis** into small, inspectable models. They are designed for classroom demonstration and independent exploration rather than automated investment advice.
 
-<div class="tool-collection-grid labs-course-grid" aria-label="Interactive real estate teaching-tool collections">
+<div class="tool-collection-grid" aria-label="Interactive real estate teaching-tool collections">
 <a class="course-collection-button" href="https://desenlin.com/FIN351/" target="_blank" rel="noopener">
 <span class="course-collection-copy">
 <span class="course-collection-code">FIN 351</span>
@@ -77,7 +77,7 @@ Draw and edit a parcel and building footprints, then connect site geometry, setb
 
 ## Linguistics Teaching Labs {#linguistics-teaching-labs}
 
-::: {.lab-collection-panel .lab-half-card}
+::: {.lab-collection-panel}
 <p class="tool-card-meta"><span class="tool-topic">Language and computation</span><span class="tool-level">Collaborative teaching collection</span></p>
 
 ### Examine language through evidence and transparent models
