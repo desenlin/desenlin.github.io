@@ -18,6 +18,8 @@ website:
         href: research.qmd
       - text: Teaching
         href: teaching.qmd
+      - text: Labs
+        href: labs.qmd
       - text: CV
         href: cv.qmd
   page-footer:

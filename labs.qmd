@@ -1,0 +1,133 @@
+---
+pagetitle: "Open Labs and Data Platforms | Desen Lin"
+description: "Open, browser-based research and teaching platforms developed by Desen Lin, including Housing Market Lab and interactive real estate and linguistics tools."
+---
+
+<p class="eyebrow">Labs and data platforms</p>
+
+# Open tools for evidence-centered research and teaching.
+
+I develop public, browser-based projects that connect academic research, classroom learning, and practical analysis. The projects emphasize transparent calculations, documented data sources, reproducible methods, and interfaces that make evidence easier to explore and discuss.
+
+<nav class="research-jump" aria-label="Labs sections">
+<a href="#housing-market-lab">Housing Market Lab</a>
+<a href="#real-estate-teaching-tools">Real Estate Teaching Tools</a>
+<a href="#linguistics-teaching-labs">Linguistics Teaching Labs</a>
+<a href="#people-and-principles">People and Principles</a>
+<a href="#citation-and-reuse">Citation and Reuse</a>
+</nav>
+
+## Featured platform {#housing-market-lab}
+
+::: {.lab-feature}
+<p class="lab-feature-meta"><span>Real estate analytics</span><span>Public data platform</span></p>
+
+### Housing Market Lab
+
+An open, reproducible platform for examining home values, rents, affordability relationships, building permits, inventory, market speed, and listing and sales dynamics. It combines detailed coverage of Southern California communities and ZIP codes with comparisons across major U.S. metropolitan areas.
+
+The platform supports three related uses: helping students interpret local housing conditions, providing researchers with transparent exploratory evidence, and giving policymakers and practitioners ready-to-use measures with documented provenance.
+
+<div class="lab-feature-details" aria-label="Housing Market Lab overview">
+<div><strong>Local coverage</strong><span>Los Angeles and Orange County cities, communities, and ZIP codes</span></div>
+<div><strong>Metro context</strong><span>Southern California neighbors and major metropolitan areas across the United States</span></div>
+<div><strong>Research design</strong><span>Validated releases, source attribution, methodological notes, and reproducible processing</span></div>
+</div>
+
+<div class="lab-feature-actions">
+<a href="https://desenlin.com/housing-market-lab/" target="_blank" rel="noopener" data-analytics-event="housing_market_lab_click" data-analytics-location="labs_feature">Open Housing Market Lab <span aria-hidden="true">↗</span></a>
+<a href="https://github.com/desenlin/housing-market-lab" target="_blank" rel="noopener">View source and documentation <span aria-hidden="true">↗</span></a>
+</div>
+:::
+
+## Real estate teaching tools {#real-estate-teaching-tools}
+
+These interactive tools translate concepts from **FIN 351: Real Estate Principles** and **FIN 355: Real Estate Investment Analysis** into small, inspectable models. They are designed for classroom demonstration and independent exploration rather than automated investment advice.
+
+<div class="tool-collection-grid" aria-label="Interactive real estate teaching-tool collections">
+<a class="course-collection-button" href="https://desenlin.com/FIN351/" target="_blank" rel="noopener">
+<span class="course-collection-copy">
+<span class="course-collection-code">FIN 351</span>
+<span class="course-collection-title">Real Estate Principles</span>
+</span>
+<span class="course-collection-action">Browse collection <span aria-hidden="true">→</span></span>
+</a>
+<a class="course-collection-button" href="https://desenlin.com/FIN355/" target="_blank" rel="noopener">
+<span class="course-collection-copy">
+<span class="course-collection-code">FIN 355</span>
+<span class="course-collection-title">Real Estate Investment Analysis</span>
+</span>
+<span class="course-collection-action">Browse collection <span aria-hidden="true">→</span></span>
+</a>
+</div>
+
+::: {.tool-grid}
+::: {.tool-card .tool-card-wide}
+<p class="tool-card-meta"><span class="tool-topic">Development feasibility</span><span class="tool-level">Planning studio</span></p>
+
+### Site Feasibility Sandbox
+
+Draw and edit a parcel and building footprints, then connect site geometry, setbacks, lot coverage, stories, and FAR to live development-capacity measures and binding constraints.
+
+[Open the site feasibility sandbox](https://desenlin.com/site-feasibility-sandbox/){.tool-link target="_blank" rel="noopener"}
+:::
+:::
+
+[See how the tools are used in my courses](teaching.qmd#interactive-teaching-tools){.lab-context-link}
+
+## Linguistics Teaching Labs {#linguistics-teaching-labs}
+
+::: {.lab-collection-panel}
+<p class="tool-card-meta"><span class="tool-topic">Language and computation</span><span class="tool-level">Collaborative teaching collection</span></p>
+
+### Examine language through evidence and transparent models
+
+Co-developed with [Wei Lai](https://github.com/weilaiPhonetics){target="_blank" rel="noopener"}, Linguistics Teaching Labs brings together the **Nature of Language Lab** and the **Computational Linguistics Lab**. The browser-based activities help introductory students test linguistic claims, work with language data, and inspect how small computational models produce their results.
+
+<div class="lab-feature-actions lab-feature-actions-light">
+<a href="https://linguistics-teaching-labs.github.io/" target="_blank" rel="noopener" data-analytics-event="linguistics_teaching_labs_click" data-analytics-location="labs_collection">Explore Linguistics Teaching Labs <span aria-hidden="true">↗</span></a>
+<a href="https://github.com/linguistics-teaching-labs" target="_blank" rel="noopener">View the project on GitHub <span aria-hidden="true">↗</span></a>
+</div>
+:::
+
+## People and principles {#people-and-principles}
+
+::: {.lab-about-grid}
+::: {.lab-about-card}
+<p class="lab-about-label">Creator and maintainer</p>
+
+### Desen Lin
+
+I am an Associate Professor of Finance at California State University, Fullerton. My research and teaching focus on housing markets, real estate finance, urban economics, and applied market analysis. I develop these projects to make data and analytical reasoning easier to inspect, teach, and reuse.
+
+[Research](research.qmd){.lab-text-link} [Teaching](teaching.qmd){.lab-text-link} [CSUF faculty profile](https://business.fullerton.edu/academics/finance/faculty-profiles?user=desenlin%40fullerton.edu){.lab-text-link target="_blank" rel="noopener"}
+:::
+
+::: {.lab-about-card}
+<p class="lab-about-label">Project principles</p>
+
+### Designed for durable public use
+
+- **Transparent:** calculations, definitions, and source attribution remain visible.
+- **Reproducible:** documented workflows support verification and adaptation.
+- **Accessible:** projects run in a web browser without a paid account or specialized software.
+- **Maintainable:** lightweight architecture and validated releases support long-term stewardship.
+:::
+:::
+
+The real estate projects are developed and maintained by Desen Lin. Linguistics Teaching Labs is a collaborative instructional project created and maintained by **Wei Lai and Desen Lin**, with project-specific attribution provided on the corresponding sites and repositories.
+
+## Citation and reuse {#citation-and-reuse}
+
+Each project provides its own source documentation, licensing terms, and recommended citation. Please cite the specific lab, tool collection, or software release that you use. Corrections, accessibility improvements, and constructive reuse are welcome through the corresponding public repository.
+
+<div class="tool-source-links" aria-label="Project source repositories and licenses">
+<span class="tool-source-label">Source and licensing</span>
+<a href="https://github.com/desenlin/housing-market-lab" target="_blank" rel="noopener">Housing Market Lab</a>
+<a href="https://github.com/desenlin/FIN351" target="_blank" rel="noopener">FIN 351 tools</a>
+<a href="https://github.com/desenlin/FIN355" target="_blank" rel="noopener">FIN 355 tools</a>
+<a href="https://github.com/desenlin/site-feasibility-sandbox" target="_blank" rel="noopener">Site Feasibility Sandbox</a>
+<a href="https://github.com/linguistics-teaching-labs" target="_blank" rel="noopener">Linguistics Teaching Labs</a>
+</div>
+
+These are independent academic projects intended for instructional, research, and informational use. They do not provide financial, investment, legal, or appraisal advice. The views expressed are those of the project authors and do not necessarily represent California State University, Fullerton or the California State University system.

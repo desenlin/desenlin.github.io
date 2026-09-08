@@ -3,14 +3,14 @@
 Source for [desenlin.com](https://desenlin.com), the academic website of
 [Desen Lin](https://desenlin.com), Associate Professor of Finance at California
 State University, Fullerton. The site presents research, teaching materials,
-and a curriculum vitae.
+open labs and data platforms, and a curriculum vitae.
 
 The website is built with [Quarto](https://quarto.org/) and published to GitHub
 Pages by GitHub Actions after changes are merged into `main`.
 
 ## Repository structure
 
-- `index.qmd`, `research.qmd`, `teaching.qmd`, and `cv.qmd`: principal pages
+- `index.qmd`, `research.qmd`, `teaching.qmd`, `labs.qmd`, and `cv.qmd`: principal pages
 - `papers/`: structured research records used to generate the research page
 - `research-summaries/`: accessible summaries of selected research
 - `scripts/`: Python build utilities

@@ -20,7 +20,7 @@ At Cal State Fullerton, I teach courses in real estate principles and investment
 
 <nav class="research-jump" aria-label="Teaching sections">
 <a href="#current-courses">Current Courses</a>
-<a href="#real-estate-analytics">Teaching Labs and Data Platforms</a>
+<a href="#open-labs">Open Labs</a>
 <a href="#interactive-teaching-tools">Interactive Teaching Tools</a>
 <a href="#previous-teaching-experience">Previous Teaching Experience</a>
 </nav>
@@ -45,31 +45,11 @@ Applied analysis of property cash flows, financing, risk, valuation, and investm
 :::
 :::
 
-## Teaching labs and data platforms {#real-estate-analytics}
+## Open labs and data platforms {#open-labs}
 
-Open, browser-based projects supporting data exploration, evidence-centered learning, and transparent analytical reasoning across real estate and language.
+My larger public projects—including **Housing Market Lab**, the real estate teaching-tool collections, and the collaborative **Linguistics Teaching Labs**—now have a dedicated overview covering their purposes, contributors, design principles, sources, and reuse information.
 
-::: {.tool-grid}
-::: {.tool-card}
-<p class="tool-card-meta"><span class="tool-topic">Real estate analytics</span><span class="tool-level">Data platform</span></p>
-
-### Housing Market Lab
-
-Explore home values, rents, price–rent relationships, inventory, market speed, and listing and sales dynamics across Southern California communities and ZIP codes, with broader metropolitan comparisons.
-
-[Open Housing Market Lab](https://desenlin.com/housing-market-lab/){.tool-link target="_blank" rel="noopener" data-analytics-event="housing_market_lab_click" data-analytics-location="teaching"}
-:::
-
-::: {.tool-card}
-<p class="tool-card-meta"><span class="tool-topic">Language and computation</span><span class="tool-level">Teaching collection</span></p>
-
-### Linguistics Teaching Labs
-
-An instructional project featuring the Nature of Language Lab and Computational Linguistics Lab—browser-based activities that help students examine linguistic evidence and inspect transparent computational models.
-
-[Explore Linguistics Teaching Labs](https://linguistics-teaching-labs.github.io/){.tool-link target="_blank" rel="noopener" data-analytics-event="linguistics_teaching_labs_click" data-analytics-location="teaching"}
-:::
-:::
+[Explore open labs and data platforms](labs.qmd){.labs-portal-link data-analytics-event="labs_portal_click" data-analytics-location="teaching"}
 
 ## Interactive teaching tools {#interactive-teaching-tools}
 
@@ -239,8 +219,6 @@ Compare three valuation approaches and see how operating forecasts, required ret
 <a href="https://github.com/desenlin/FIN351" target="_blank" rel="noopener">FIN 351 on GitHub</a>
 <a href="https://github.com/desenlin/FIN355" target="_blank" rel="noopener">FIN 355 on GitHub</a>
 <a href="https://github.com/desenlin/site-feasibility-sandbox" target="_blank" rel="noopener">Site feasibility sandbox on GitHub</a>
-<a href="https://github.com/desenlin/housing-market-lab" target="_blank" rel="noopener">Housing Market Lab on GitHub</a>
-<a href="https://github.com/linguistics-teaching-labs" target="_blank" rel="noopener">Linguistics Teaching Labs on GitHub</a>
 </div>
 
 ## Previous teaching experience {#previous-teaching-experience}
