@@ -13,8 +13,8 @@ links:
   - { label: "Research Summary", url: "research-summaries/young-adult-coresidence.html" }
   - { label: "Online Appendix", url: "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F1540-6229.12467&file=reec12467-sup-0001-OnlineAppendix.pdf" }
 presentations:
-  - { label: "FHFA ECON Summit on Housing Market Challenges, Washington, D.C., 2023" }
-  - { label: "ASSA–AREUEA Annual Meeting, San Antonio, TX, 2024" }
+  - { label: "FHFA ECON Summit on Housing Market Challenges, Washington, D.C., 2023", url: "https://www.fhfa.gov/news/public-engagements/econ-summit/spring-2023" }
+  - { label: "ASSA–AREUEA Annual Meeting, San Antonio, TX, 2024", url: "https://www.aeaweb.org/conference/2024/download/ASSA_2024_by_association" }
 media:
   - { label: "CBS News", url: "https://www.cbsnews.com/losangeles/video/new-study-shows-rising-number-of-young-adults-living-at-home/" }
   - { label: "CBS News clip (YouTube)", url: "https://www.youtube.com/watch?v=keDCexgToUw" }
