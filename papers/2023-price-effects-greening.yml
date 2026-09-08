@@ -15,7 +15,7 @@ links:
   - { label: "Online Appendix", url: "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F1540-6229.12401&file=reec12401-sup-0001-Appendix.docx" }
 presentations:
   - { label: "CSUF Finance Brownbag Seminar, Fullerton, CA, 2022" }
-  - { label: "ASSA–AREUEA Annual Meeting, New Orleans, LA, 2023" }
+  - { label: "ASSA–AREUEA Annual Meeting, New Orleans, LA, 2023", url: "https://www.aeaweb.org/conference/2023/program/1831" }
 media:
   - { label: "AI & Analytics at Wharton", url: "https://ai-analytics.wharton.upenn.edu/impact-analytics/landcare-pays-dividends/" }
   - { label: "Penn IUR video", url: "https://penniur.upenn.edu/media/videos/research-shows-revitalizing-vacant-lots-pays-dividends" }
