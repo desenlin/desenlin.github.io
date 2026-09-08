@@ -13,8 +13,8 @@ links:
   - { label: "SSRN", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3269089" }
   # - { label: "Research Summary", url: "research-summaries/endowments-minority-homeownership.html" }
 presentations:
-  - { label: "Urban Institute Data Talk, Washington, D.C., 2019" }
-  - { label: "ASSA–AREUEA Annual Meeting, San Diego, CA, 2020" }
+  - { label: "Urban Institute Data Talk, Washington, D.C., 2019", url: "https://www.urban.org/events/black-homeownership-gap-research-trends-and-why-growing-gap-matters" }
+  - { label: "ASSA–AREUEA Annual Meeting, San Diego, CA, 2020", url: "https://www.aeaweb.org/conference/2020/preliminary/1959" }
 media:
   - { label: "Urban Institute", url: "https://www.urban.org/events/black-homeownership-gap-research-trends-and-why-growing-gap-matters" }
   - { label: "Housing Matters", url: "https://housingmatters.urban.org/research-summary/are-income-disparities-driving-racial-homeownership-gap" }
