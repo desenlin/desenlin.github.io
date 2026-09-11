@@ -35,8 +35,10 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles/site-20260908.css
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles/site-20260911.css
     include-after-body: includes/analytics-events.html
     toc: false
     smooth-scroll: true
