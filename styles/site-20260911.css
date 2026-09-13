@@ -76,7 +76,7 @@ body.quarto-dark {
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--paper); color: var(--body-text); font-family: Arial, Helvetica, sans-serif; line-height: 1.65; }
-.navbar { min-height: 74px; padding-inline: 0; border-bottom: 1px solid var(--line); background: var(--navbar-bg); }
+.navbar { min-height: 74px; padding: .5rem 0; border-bottom: 1px solid var(--line); background: var(--navbar-bg); }
 .navbar .navbar-container { width: min(1120px, calc(100% - 40px)); margin: 0 auto; padding-inline: 0; }
 .navbar-logo { max-height: 48px; width: auto; }
 .navbar-brand { color: var(--navy); font-family: Georgia, serif; font-weight: 700; }
