@@ -24,9 +24,9 @@ I develop public, browser-based projects that connect academic research, classro
 
 ### Housing Market Lab
 
-An open, reproducible platform for examining home values, rents, affordability relationships, building permits, inventory, market speed, and listing and sales dynamics. It combines detailed coverage of Southern California communities and ZIP codes with comparisons across major U.S. metropolitan areas.
+An instructional and research-oriented lab for exploring selected aggregate housing indicators. It brings together home values, rents, market conditions, building permits, inflation, and housing context, with detailed views of Los Angeles and Orange County communities and ZIP codes plus comparisons across major U.S. metropolitan areas.
 
-The platform supports three related uses: helping students interpret local housing conditions, providing researchers with transparent exploratory evidence, and giving policymakers and practitioners ready-to-use measures with documented provenance.
+Designed for classroom exploration and academic research, the lab helps students connect economic concepts with observed market patterns and gives researchers and public users documented descriptive evidence for further analysis. It does not contain property listings or property-level records.
 
 <div class="lab-feature-details" aria-label="Housing Market Lab overview">
 <div><strong>Local coverage</strong><span>Los Angeles and Orange County cities, communities, and ZIP codes</span></div>

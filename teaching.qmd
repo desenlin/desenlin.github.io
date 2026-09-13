@@ -47,7 +47,7 @@ Applied analysis of property cash flows, financing, risk, valuation, and investm
 
 ## Open labs and data platforms {#open-labs}
 
-My larger public projects—including **Housing Market Lab**, the real estate teaching-tool collections, and the collaborative **Linguistics Teaching Labs**—now have a dedicated overview covering their purposes, contributors, design principles, sources, and reuse information.
+**Housing Market Lab** organizes selected aggregate Southern California housing indicators for classroom exploration and academic research. It appears alongside the real estate teaching-tool collections and the collaborative **Linguistics Teaching Labs** on a dedicated overview covering their purposes, contributors, design principles, sources, and reuse information.
 
 [Explore open labs and data platforms](labs.qmd){.labs-portal-link data-analytics-event="labs_portal_click" data-analytics-location="teaching"}
 
