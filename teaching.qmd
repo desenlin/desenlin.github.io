@@ -184,6 +184,16 @@ Solve the same development model in two directions: find the minimum rent that s
 :::
 
 ::: {.tool-card}
+<span class="tool-topic">FIN 355 · Development finance</span>
+
+### Construction Pro Forma and Loan Balance
+
+Compare a fixed course-case S-curve with editable construction timing, then trace cash advances, accrued interest, loan capacity, additional equity, and condominium sale proceeds through the development pro forma.
+
+[Open the construction pro forma tool](https://desenlin.com/FIN355/construction-pro-forma.html){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
 <span class="tool-topic">FIN 355 · Ground leases</span>
 
 ### Four Models for Ground-Lease Valuation
