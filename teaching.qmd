@@ -224,12 +224,14 @@ Compare three valuation approaches and see how operating forecasts, required ret
 :::
 :::
 
+<!-- Source and licensing is retained here for future use but hidden from the published page.
 <div class="tool-source-links" aria-label="Source repositories and licenses">
 <span class="tool-source-label">Source and licensing</span>
 <a href="https://github.com/desenlin/FIN351" target="_blank" rel="noopener">FIN 351 on GitHub</a>
 <a href="https://github.com/desenlin/FIN355" target="_blank" rel="noopener">FIN 355 on GitHub</a>
 <a href="https://github.com/desenlin/site-feasibility-sandbox" target="_blank" rel="noopener">Site feasibility sandbox on GitHub</a>
 </div>
+-->
 
 ## Previous teaching experience {#previous-teaching-experience}
 

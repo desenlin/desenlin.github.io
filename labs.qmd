@@ -36,7 +36,6 @@ Designed for classroom exploration and academic research, the lab helps students
 
 <div class="lab-feature-actions">
 <a href="https://desenlin.com/housing-market-lab/" target="_blank" rel="noopener" data-analytics-event="housing_market_lab_click" data-analytics-location="labs_feature">Open Housing Market Lab <span aria-hidden="true">↗</span></a>
-<a href="https://github.com/desenlin/housing-market-lab" target="_blank" rel="noopener">View source and documentation <span aria-hidden="true">↗</span></a>
 </div>
 :::
 
@@ -86,7 +85,6 @@ Co-developed with [Wei Lai](https://github.com/weilaiPhonetics){target="_blank" 
 
 <div class="lab-feature-actions lab-feature-actions-light">
 <a href="https://linguistics-teaching-labs.github.io/" target="_blank" rel="noopener" data-analytics-event="linguistics_teaching_labs_click" data-analytics-location="labs_collection">Explore Linguistics Teaching Labs <span aria-hidden="true">↗</span></a>
-<a href="https://github.com/linguistics-teaching-labs" target="_blank" rel="noopener">View the project on GitHub <span aria-hidden="true">↗</span></a>
 </div>
 :::
 
@@ -119,14 +117,11 @@ The real estate projects are developed and maintained by **Desen Lin**. Linguist
 
 ## Citation and reuse {#citation-and-reuse}
 
-Each project provides its own source documentation, licensing terms, and recommended citation. Please cite the specific lab, tool collection, or software release that you use. Corrections, accessibility improvements, and constructive reuse are welcome through the corresponding public repository.
+Please cite the specific lab or tool collection that you use, linking to its published website. For questions about the FIN 351 and FIN 355 teaching resources, including the Site Feasibility Sandbox, contact [Desen Lin](mailto:desenlin@fullerton.edu). Other projects provide their own documentation and reuse terms through the links below.
 
 <div class="tool-source-links" aria-label="Project source repositories and licenses">
 <span class="tool-source-label">Source and licensing</span>
 <a href="https://github.com/desenlin/housing-market-lab" target="_blank" rel="noopener">Housing Market Lab</a>
-<a href="https://github.com/desenlin/FIN351" target="_blank" rel="noopener">FIN 351 tools</a>
-<a href="https://github.com/desenlin/FIN355" target="_blank" rel="noopener">FIN 355 tools</a>
-<a href="https://github.com/desenlin/site-feasibility-sandbox" target="_blank" rel="noopener">Site Feasibility Sandbox</a>
 <a href="https://github.com/linguistics-teaching-labs" target="_blank" rel="noopener">Linguistics Teaching Labs</a>
 </div>
 
