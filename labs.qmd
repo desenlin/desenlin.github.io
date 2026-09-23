@@ -74,11 +74,11 @@ Draw and edit a parcel and building footprints, then connect site geometry, setb
 ::: {.tool-card}
 <p class="tool-card-meta"><span class="tool-topic">Real estate development</span><span class="tool-level">Case Study</span></p>
 
-### Atlas Fullerton: From Retail Land to 329 Homes
+### Retail-to-Residential Redevelopment
 
 Follow a real redevelopment from its 2021 approvals to construction. Explore the site, compare nearby apartment layouts, and test commercial lease and development scenarios with explicit teaching assumptions.
 
-[Explore the Atlas Fullerton case study](https://desenlin.com/FIN355/atlas-fullerton-case.html){.tool-link target="_blank" rel="noopener"}
+[Explore the redevelopment case study](https://desenlin.com/FIN355/atlas-fullerton-case.html){.tool-link target="_blank" rel="noopener"}
 :::
 :::
 
@@ -127,13 +127,15 @@ The real estate projects are developed and maintained by **Desen Lin**. Linguist
 
 ## Citation and reuse {#citation-and-reuse}
 
-Please cite the specific lab or tool collection that you use, linking to its published website. For questions about the FIN 351 and FIN 355 teaching resources, including the Site Feasibility Sandbox, contact [Desen Lin](mailto:desenlin@fullerton.edu). Other projects provide their own documentation and reuse terms through the links below.
+Please cite the specific lab or tool collection that you use, linking to its published website. For questions about the FIN 351 and FIN 355 teaching resources, including the Site Feasibility Sandbox, contact [Desen Lin](mailto:desenlin@fullerton.edu). Consult each project’s published website for its documentation and reuse terms.
 
+<!-- Source and licensing is retained here for future use but hidden from the published page.
 <div class="tool-source-links" aria-label="Project source repositories and licenses">
 <span class="tool-source-label">Source and licensing</span>
 <a href="https://github.com/desenlin/housing-market-lab" target="_blank" rel="noopener">Housing Market Lab</a>
 <a href="https://github.com/linguistics-teaching-labs" target="_blank" rel="noopener">Linguistics Teaching Labs</a>
 </div>
+-->
 
 ::: {.lab-disclaimer}
 These are independent academic projects intended for instructional, research, and informational use. They do not provide financial, investment, legal, or appraisal advice. The views expressed are those of the project authors and do not necessarily represent California State University, Fullerton or the California State University system.
