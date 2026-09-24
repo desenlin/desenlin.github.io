@@ -76,7 +76,7 @@ Draw and edit a parcel and building footprints, then connect site geometry, setb
 
 ### Retail-to-Residential Redevelopment
 
-Follow a real redevelopment from its 2021 approvals to construction. Explore the site, compare nearby apartment layouts, and test commercial leases plus separate build-to-rent construction and operating pro formas with explicit teaching assumptions.
+Explore a retail-to-residential redevelopment through local market comparisons, commercial leases, and build-to-rent pro formas.
 
 [Explore the redevelopment case study](https://desenlin.com/FIN355/atlas-fullerton-case.html){.tool-link target="_blank" rel="noopener"}
 :::
