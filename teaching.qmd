@@ -96,9 +96,9 @@ Explore a retail-to-residential redevelopment through local market comparisons, 
 ::: {.tool-card}
 <p class="tool-card-meta"><span class="tool-topic">FIN 355 · Retail real estate</span><span class="tool-level">CRE studio</span></p>
 
-### Ame Quarter
+### 3-D Retail Plaza & Leasing
 
-Explore a six-shop plaza as its landlord. Inspect premises, read hypothetical leases, and compare renewal and re-leasing decisions through operating income and leasing cash flows.
+Explore Ame Quarter’s interactive 3-D plaza, step inside six shops, and connect hypothetical leases with rent rolls and landlord leasing decisions.
 
 [Open the CRE studio](https://desenlin.com/ame-quarter/){.tool-link target="_blank" rel="noopener"}
 :::
