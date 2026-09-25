@@ -94,6 +94,16 @@ Explore a retail-to-residential redevelopment through local market comparisons, 
 :::
 
 ::: {.tool-card}
+<p class="tool-card-meta"><span class="tool-topic">FIN 355 · Retail real estate</span><span class="tool-level">CRE studio</span></p>
+
+### Ame Quarter
+
+Explore a six-shop plaza as its landlord. Inspect premises, read hypothetical leases, and compare renewal and re-leasing decisions through operating income and leasing cash flows.
+
+[Open the CRE studio](https://desenlin.com/ame-quarter/){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
 <span class="tool-topic">FIN 351 · Urban land economics</span>
 
 ### Bid-Rent Curves and Urban Land Use
@@ -256,3 +266,4 @@ Microeconomic Theory (Ph.D.); Intermediate Microeconomics; Principles of Macroec
 
 **Fudan University**  
 Public Economics; Probability and Statistics.
+
