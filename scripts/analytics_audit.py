@@ -10,15 +10,20 @@ SKIP_DIRS={'.git','node_modules','__pycache__','_site','dist','build','vendor'}
 
 class Page(HTMLParser):
     def __init__(self,text):
-        super().__init__();self.scripts=[];self.links=[];self.title='';self.in_title=False;self.feed(text)
+        super().__init__();self.scripts=[];self.links=[];self.title='';self.in_title=False;self.inert=0;self.script=None;self.feed(text)
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
-        if tag=='script':self.scripts.append(a)
+        if tag in {'template','noscript'}:self.inert+=1
+        if tag=='script' and not self.inert and a.get('type','').lower() in {'','text/javascript','application/javascript','module'}:
+            a['_body']='';self.scripts.append(a);self.script=a
         if tag=='a' and a.get('href'):self.links.append(a['href'])
         if tag=='title':self.in_title=True
     def handle_endtag(self,tag):
+        if tag=='script':self.script=None
+        if tag in {'template','noscript'}:self.inert=max(0,self.inert-1)
         if tag=='title':self.in_title=False
     def handle_data(self,data):
+        if self.script is not None:self.script['_body']+=data
         if self.in_title:self.title+=data
 
 def issues(text,mid,require_tracker=True):
@@ -33,11 +38,14 @@ def issues(text,mid,require_tracker=True):
         if s.get('data-ga-id')!=mid:errors.append('Shared tracker has the wrong or missing measurement ID.')
         if not s.get('data-project'):errors.append('Shared tracker is missing data-project.')
         if 'defer' not in s:errors.append('Shared tracker must use defer so it can detect existing GA4 initialization.')
+        if s.get('type')=='module':errors.append('Shared tracker must be a classic deferred script, not a module.')
     if len(google)>1:errors.append('Multiple Google tag loaders can duplicate measurement.')
     ids=set(re.findall(r'G-[A-Z0-9]{6,}',text))
     if ids and ids!={mid}:errors.append('Unexpected measurement ID: '+', '.join(sorted(ids)))
     # Existing inline GA4 is supported; the shared script configures only when gtag does not exist.
-    configs=re.findall(r'gtag\(\s*[\"\']config[\"\']\s*,\s*[\"\']'+re.escape(mid),text)
+    # Ignore serialized React hydration data, which contains code as string data.
+    inline='\n'.join(s['_body'] for s in p.scripts if not s.get('src'))
+    configs=re.findall(r'(?:^|[;\n])\s*(?:window\.)?gtag\(\s*[\"\']config[\"\']\s*,\s*[\"\']'+re.escape(mid),inline)
     if len(configs)>1:errors.append('Multiple inline GA4 config calls can duplicate page views.')
     return errors
 
@@ -66,7 +74,8 @@ def source(root,cfg):
         content=tracker.read_text()
         for marker in ['window.top !== window.self','activity_start','lab_launch','event.isTrusted',"typeof window.gtag !== 'function'"]:
             if marker not in content:failures.append('Shared tracker is missing safeguard/event: '+marker)
-    for f in root.rglob('*.html'):
+    for f in root.rglob('*'):
+        if not f.is_file() or f.suffix.lower() not in {'.html','.htm'}:continue
         relative=f.relative_to(root)
         if any(p in SKIP_DIRS for p in relative.parts) or excluded(relative.as_posix(),cfg):continue
         text=f.read_text(encoding='utf-8')
@@ -125,7 +134,7 @@ def live(cfg,manifest):
                 # The academic-site audit follows new same-domain tools automatically.
                 if not u.path.startswith(base.path):continue
                 if any(part.startswith('.') for part in unquote(u.path).split('/')):continue
-                if not (u.path.endswith('/') or u.path.endswith('.html')):continue
+                if not (u.path.endswith('/') or u.path.lower().endswith(('.html','.htm'))):continue
                 if candidate not in seen and candidate not in pending:pending.append(candidate)
         except Exception as e:failures.append(f'{url}: {e}')
     return {'pages':pages,'urls':sorted({p['url'] for p in pages}),'failures':failures}

@@ -24,7 +24,9 @@ For grouped reports, a GA administrator can register `project_id`, `activity_id`
 
 ## Automated checks
 
-Every maintained repository has `.analytics.json` and an **Analytics tracking audit** workflow:
+The six academic-site and real-estate repositories have `.analytics.json` and an **Analytics tracking audit** workflow. The three Linguistics repositories retain their independent **Analytics coverage** workflows and Wednesday schedules, documented in their own `docs/analytics.md`. Their checks validate page-view tags and prepare reviewable missing-tag repair patches; this update preserves that configuration.
+
+The shared real-estate audit runs:
 
 - Every push and pull request: validate source pages and shared layouts, reject missing/wrong/legacy/duplicate tags, and run regression tests of the tracker and auditor.
 - After a successful Pages deployment: inspect the published HTML and run Chromium checks of page-view generation and configured activity events.

@@ -10,6 +10,12 @@ class CoverageTests(unittest.TestCase):
             self.assertTrue(audit.issues(bad,MID),bad)
     def test_jekyll_inherited_include_is_understood(self):
         self.assertEqual(audit.issues(GOOD.replace('assets/analytics.js',"{{ '/assets/analytics.js' | relative_url }}"),MID),[])
+    def test_inert_tags_and_hydration_payloads(self):
+        self.assertTrue(audit.issues('<template>'+GOOD+'</template>',MID))
+        bootstrap=f"gtag('js', new Date());\ngtag('config', '{MID}');"
+        html=GOOD+f'<script>{bootstrap}</script><script>self.data.push({json.dumps(bootstrap)});</script>'
+        self.assertEqual(audit.issues(html,MID),[])
+        self.assertTrue(audit.issues(GOOD+f'<script>{bootstrap}\n{bootstrap}</script>',MID))
     def test_new_unlinked_page_is_not_silently_skipped(self):
         with tempfile.TemporaryDirectory() as d:
             root=pathlib.Path(d);(root/'index.html').write_text(GOOD)
