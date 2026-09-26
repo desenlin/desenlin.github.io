@@ -1,0 +1,69 @@
+// Runs in GitHub Actions. Collection requests are intercepted and never sent to GA.
+import { chromium } from 'playwright';
+import fs from 'node:fs';
+import path from 'node:path';
+const [root, manifestFile, reportFile] = process.argv.slice(2);
+const cfg = JSON.parse(fs.readFileSync(path.join(root, '.analytics.json')));
+const manifest = JSON.parse(fs.readFileSync(manifestFile));
+const browser = await chromium.launch({headless: true});
+const results = [];
+function decode(request) {
+  const url = new URL(request.url());
+  return (request.postData() || '').split('\n').map(line => {
+    const params = new URLSearchParams(url.search);
+    for (const [k,v] of new URLSearchParams(line)) params.set(k,v);
+    return {id: params.get('tid'), event: params.get('en'), location: params.get('dl'), value: params.get('ep.action_value')};
+  });
+}
+async function audit(url) {
+  const context = await browser.newContext({serviceWorkers: 'block'});
+  const hits = [];
+  const result = {url, errors: [], events: []};
+  await context.route('**/*', async route => {
+    const u = new URL(route.request().url());
+    if (/(^|\.)(google-analytics\.com|analytics\.google\.com|doubleclick\.net)$/.test(u.hostname) || /\/(g\/)?collect$/.test(u.pathname)) {
+      hits.push(...decode(route.request()));
+      return route.fulfill({status:204,body:''});
+    }
+    // Images/fonts are irrelevant to analytics and need not burden production hosting.
+    if (['image','font','media'].includes(route.request().resourceType())) return route.abort();
+    return route.continue();
+  });
+  const page = await context.newPage();
+  const waitFor = async predicate => {
+    const until=Date.now()+15000;
+    while(!predicate() && Date.now()<until) await new Promise(r=>setTimeout(r,100));
+    if(!predicate()) throw new Error('Expected GA event was not produced within 15 seconds.');
+  };
+  try {
+    const response = await page.goto(url,{waitUntil:'domcontentloaded',timeout:45000});
+    if (!response?.ok()) throw new Error('HTTP '+response?.status());
+    await waitFor(()=>hits.some(h=>h.event==='page_view'&&h.id===cfg.measurement_id));
+    await page.waitForTimeout(1200);
+    const views=hits.filter(h=>h.event==='page_view'&&h.id===cfg.measurement_id);
+    if(views.length!==1) result.errors.push(`Expected exactly one initial page view; observed ${views.length}.`);
+    if(hits.some(h=>h.id&&h.id!==cfg.measurement_id)) result.errors.push('Events targeted an unexpected measurement ID.');
+    const normalize=x=>new URL(x).pathname.replace(/index\.html$/,'');
+    const smoke=(cfg.smoke||[]).find(s=>normalize(new URL(s.path,cfg.site_url))===normalize(url));
+    for(const action of smoke?.actions||[]) {
+      const before=hits.length;
+      const el=page.locator(action.selector);
+      if(action.select) await el.selectOption(action.select);
+      else if(action.fill) {await el.fill(action.fill);await el.press('Tab');}
+      else await el.click();
+      await waitFor(()=>hits.slice(before).some(h=>h.event===action.event&&h.id===cfg.measurement_id&&(!action.value||h.value===action.value)));
+    }
+    result.events=hits.filter(h=>h.id===cfg.measurement_id).map(h=>({event:h.event,value:h.value}));
+  } catch(e) {result.errors.push(e.message);}
+  finally {await context.close();results.push(result);console.log(JSON.stringify(result));}
+}
+// Bounded concurrency, with discovery handled by the HTML audit.
+const queue=[...new Set(manifest.urls)];
+await Promise.all(Array.from({length:3},async()=>{while(queue.length)await audit(queue.shift());}));
+await browser.close();
+const failed=results.filter(r=>r.errors.length);
+fs.writeFileSync(reportFile,JSON.stringify({collection_requests_sent:0,results},null,2));
+const summary=`\n### Browser event audit\n\n${results.length} pages tested; ${failed.length} failed. Test collection requests were intercepted before transmission to Google. This verifies event generation, not receipt in private GA reports.\n`+failed.map(r=>`- ${r.url}: ${r.errors.join('; ')}`).join('\n')+'\n';
+console.log(summary);
+if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,summary);
+if(failed.length)process.exitCode=1;

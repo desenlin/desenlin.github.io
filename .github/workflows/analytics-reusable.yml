@@ -1,0 +1,61 @@
+name: Reusable analytics audit
+on:
+  workflow_call:
+    inputs:
+      live:
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          path: site
+          persist-credentials: false
+      - name: Check out the shared audit engine
+        uses: actions/checkout@v6
+        with:
+          repository: desenlin/desenlin.github.io
+          ref: main
+          path: engine
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Test the audit engine
+        run: python -m unittest discover -s engine/scripts/analytics-tests
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Test event handling and iframe isolation
+        run: |
+          npm install --prefix engine/scripts --no-save --ignore-scripts jsdom@26.1.0
+          tracker=$(python -c 'import json; print(json.load(open("site/.analytics.json"))["tracker"])')
+          node engine/scripts/analytics-tests/tracker.cjs "site/$tracker"
+      - name: Check every source page and inherited template
+        run: python engine/scripts/analytics_audit.py source --root site --manifest analytics-pages.json
+      - name: Inspect published pages and discover new linked tools
+        if: inputs.live
+        run: python engine/scripts/analytics_audit.py live --root site --manifest analytics-pages.json
+      - name: Install pinned browser audit dependencies
+        if: inputs.live
+        run: |
+          npm install --prefix engine/scripts --no-save --ignore-scripts playwright@1.58.2
+          engine/scripts/node_modules/.bin/playwright install --with-deps chromium
+      - name: Verify page views and activity events without sending test hits
+        if: inputs.live
+        run: node engine/scripts/analytics_live.mjs site analytics-pages.json analytics-browser.json
+      - name: Preserve the audit results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: analytics-audit
+          path: |
+            analytics-pages.json
+            analytics-browser.json
+          retention-days: 14
+          if-no-files-found: warn

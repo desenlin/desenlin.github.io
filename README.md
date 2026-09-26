@@ -88,3 +88,8 @@ California State University system.
 
 Do not add the custom-domain `CNAME` file until the GitHub Pages site has been
 fully reviewed and the Wix DNS cutover is scheduled.
+
+
+## Analytics maintenance
+
+The website and teaching projects have automated source and live tracking audits. See [analytics coverage and maintenance](docs/analytics.md) for event definitions, weekly checks, reports, and the checklist for new pages.

@@ -1,0 +1,22 @@
+{
+  "site_url": "https://desenlin.com/",
+  "measurement_id": "G-MDGMSFPEH2",
+  "mode": "quarto",
+  "tracker": "assets/analytics.js",
+  "project": "academic-site",
+  "exclude": {
+    "includes/analytics-events.html": "Quarto include, validated through the global configuration.",
+    "_generated/**": "Generated partials are incorporated into full Quarto pages."
+  },
+  "smoke": [
+    {
+      "path": "labs.html",
+      "actions": [
+        {
+          "selector": "a[href=\"https://desenlin.com/ame-quarter/\"]",
+          "event": "lab_launch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,1 @@
-<script>
-document.addEventListener("click", function (event) {
-  const link = event.target.closest("a[data-analytics-event]");
-  if (!link || typeof window.gtag !== "function") return;
-  window.gtag("event", link.dataset.analyticsEvent, {
-    link_location: link.dataset.analyticsLocation || "unspecified",
-    link_url: link.href
-  });
-});
-</script>
+<script defer src="/assets/analytics.js" data-ga-id="G-MDGMSFPEH2" data-project="academic-site"></script>
