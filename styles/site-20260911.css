@@ -1,13 +1,7 @@
-@font-face {
-  font-family: "Noto Serif SC Site";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 200 900;
-  src: url("https://cdn.jsdelivr.net/fontsource/fonts/noto-serif-sc:vf@5.3.0/chinese-simplified-wght-normal.woff2") format("woff2-variations");
-  unicode-range: U+6797, U+7684, U+68EE;
-}
+/* Noto Serif SC is subset and served locally by scripts/build_bilingual.py. */
 
 :root {
+  --chinese-font: "Noto Serif SC Site", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
   --navy: #081478;
   --deep: #050d55;
   --orange: #e86f16;
@@ -39,6 +33,31 @@
   --course-shadow: rgba(94,53,24,.06);
   --course-hover-shadow: rgba(94,53,24,.10);
 }
+
+.site-language-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  margin-right: .35rem;
+  color: var(--navy);
+  font-family: Arial, var(--chinese-font);
+  font-size: .85rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.site-language-switch:hover { color: var(--orange); }
+.site-language-switch:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+html[lang="zh-CN"] body { font-family: Arial, Helvetica, var(--chinese-font); line-height: 1.85; }
+html[lang="zh-CN"] :is(h1, h2, h3, h4, .navbar-brand, .contact-title, .course-collection-title, .lab-feature-details strong, .research-summary blockquote, .summary-callout) {
+  font-family: Georgia, "Times New Roman", var(--chinese-font);
+  line-height: 1.4;
+}
+html[lang="zh-CN"] .eyebrow { letter-spacing: .1em; }
+html[lang="zh-CN"] .home-copy { line-height: 1.8; }
+html[lang="zh-CN"] .paper-meta-items { line-height: 1.65; }
 
 body.quarto-dark {
   --navy: #b8c4ff;

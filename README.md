@@ -93,3 +93,10 @@ fully reviewed and the Wix DNS cutover is scheduled.
 ## Analytics maintenance
 
 The website and teaching projects have automated source and live tracking audits. See [analytics coverage and maintenance](docs/analytics.md) for event definitions, weekly checks, reports, and the checklist for new pages.
+
+## English and Chinese pages
+
+The academic pages have a Chinese counterpart generated from the current English
+build on every update. The language link sits beside the theme control. Reviewed
+translations, protected research records, automatic updates, and local checks
+are documented in [Chinese page maintenance](docs/chinese-pages.md).
