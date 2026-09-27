@@ -1,0 +1,12 @@
+_site/
+.quarto/
+.cache/
+__pycache__/
+*.pyc
+/*.html
+/site_libs/
+/research-summaries/*.html
+/docs/*.html
+
+/.quarto/
+**/*.quarto_ipynb
