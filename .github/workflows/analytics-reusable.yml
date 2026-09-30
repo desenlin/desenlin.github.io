@@ -51,7 +51,7 @@ jobs:
         run: node engine/scripts/analytics_live.mjs site analytics-pages.json analytics-browser.json
       - name: Preserve the audit results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: analytics-audit
           path: |
