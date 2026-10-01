@@ -144,6 +144,16 @@ Classify observations through supply, demand, property-and-lease, and local-cont
 :::
 
 ::: {.tool-card}
+<span class="tool-topic">FIN 355 · Cap rates and valuation</span>
+
+### Historical Cap Rate Explorer
+
+Compare historical apartment and office cap rates across markets and submarkets, then explore how cap rates and NOI affect property value.
+
+[Open the historical cap rate explorer](https://desenlin.com/FIN355/cap-rate-explorer.html){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
 <span class="tool-topic">FIN 355 · Debt financing</span>
 
 ### How Amortization Changes a Loan Payment
@@ -266,4 +276,5 @@ Microeconomic Theory (Ph.D.); Intermediate Microeconomics; Principles of Macroec
 
 **Fudan University**  
 Public Economics; Probability and Statistics.
+
 
