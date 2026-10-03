@@ -204,6 +204,16 @@ See how concessions change annual net effective rent, then compare constant rent
 :::
 
 ::: {.tool-card}
+<span class="tool-topic">FIN 355 · Property cash flows</span>
+
+### Property-Level Pro Forma Explorer
+
+Build the Kathy Center pro forma from rental income to after-tax cash flow. Reveal each calculation, change assumptions, and compare five years.
+
+[Open the property pro forma explorer](https://desenlin.com/FIN355/property-pro-forma.html){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
 <span class="tool-topic">FIN 355 · Development feasibility</span>
 
 ### Development Feasibility: Replacement Rent and Land Value
