@@ -368,5 +368,9 @@
   "FIN 355 · Property cash flows": "FIN 355 · 物业现金流",
   "Property-Level Pro Forma Explorer": "物业层面财务预测探索工具",
   "Build the Kathy Center pro forma from rental income to after-tax cash flow. Reveal each calculation, change assumptions, and compare five years.": "从租金收入到税后现金流，逐步构建 Kathy Center 的财务预测。查看每一步计算，调整假设，并比较五年的结果。",
-  "Open the property pro forma explorer": "打开物业财务预测探索工具"
+  "Open the property pro forma explorer": "打开物业财务预测探索工具",
+  "FIN 355 · Financial modeling": "FIN 355 · 财务建模",
+  "Financial Model Explorer": "财务模型探索工具",
+  "Trace Leslie Court’s cash flows, test replacement reserves, separate sale taxes, and see how exit cap rates change investment returns.": "追踪 Leslie Court 的现金流，测试资本支出储备金，分解出售环节的税额，并观察退出资本化率如何影响投资回报。",
+  "Open the financial model explorer": "打开财务模型探索工具"
 }

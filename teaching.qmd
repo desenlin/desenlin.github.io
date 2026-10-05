@@ -214,6 +214,16 @@ Build the Kathy Center pro forma from rental income to after-tax cash flow. Reve
 :::
 
 ::: {.tool-card}
+<span class="tool-topic">FIN 355 · Financial modeling</span>
+
+### Financial Model Explorer
+
+Trace Leslie Court’s cash flows, test replacement reserves, separate sale taxes, and see how exit cap rates change investment returns.
+
+[Open the financial model explorer](https://desenlin.com/FIN355/financial-model-explorer.html){.tool-link target="_blank" rel="noopener"}
+:::
+
+::: {.tool-card}
 <span class="tool-topic">FIN 355 · Development feasibility</span>
 
 ### Development Feasibility: Replacement Rent and Land Value
@@ -286,5 +296,6 @@ Microeconomic Theory (Ph.D.); Intermediate Microeconomics; Principles of Macroec
 
 **Fudan University**  
 Public Economics; Probability and Statistics.
+
 
 
