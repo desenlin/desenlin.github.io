@@ -1,0 +1,25 @@
+# Copy this file, rename it with the year and a short title, and replace the values.
+title: "Beyond Property Values: Vacant Lot Greening and Property Tax Delinquency"
+year: 2026
+category: "working-paper" # publication | working-paper | work-in-progress | dissertation | policy-report | unpublished-manuscript | pre-doctoral
+status: "Working paper"
+# sort_order: 1 # Optional; lower numbers appear first within a section.
+# authors:
+#   - name: "Coauthor Name"
+#     affiliation: "University Name"
+#     url: "https://example.com/profile"
+# venue:
+#  name: "Journal or publisher name"
+#  url: "https://doi.org/example"
+citation: "Lin, D. (2026). Beyond Property Values: Vacant Lot Greening and Property Tax Delinquency [Working paper]."
+abstract: |
+  Does vacant lot greening help resolve unpaid property taxes? We examine changes in property tax outcomes around Philadelphia’s 2013-2018 greening installations using linked tax balances, assessments, and deeds. Arrears prevalence declines more in treated neighborhoods than in propensity-score-matched controls, by 0.9 percentage points averaged over the next three years; matching additionally on prior financial histories reduces the estimated difference to 0.4 percentage points. This attenuation points to the role of initial indebtedness. Treated neighborhoods begin with more indebted accounts, while exit probabilities among initial debtors are similar across groups. Among accounts owing comparable existing bills, we find little difference in bill persistence or sustained clearance, with about 22 percent in each group free of all arrears in all three annual follow-ups. Clearance more often involves sheriff deeds, which record court-ordered transfers, with the difference concentrated among accounts carrying older obligations. Our findings suggest that fiscal evaluations of neighborhood investment should track whether accounts remain free of arrears and whether existing owners retain their properties when unpaid taxes are resolved.
+#links:
+#  - { label: "SSRN", url: ""}
+# honors:
+#  - label: "Award name"
+#    url: "https://example.com/award"
+# presentations: [] # Items may also use label + url, as above.
+# media:
+#  - label: "News outlet"
+#    url: "https://example.com/article"
