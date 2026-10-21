@@ -1,0 +1,24 @@
+title: "What Permitted Density Misses"
+year: 2026
+category: "working-in-progress" # publication | working-paper | work-in-progress | dissertation | policy-report | unpublished-manuscript | pre-doctoral
+status: "Work in Progress"
+# sort_order: 1 # Optional; lower numbers appear first within a section.
+# authors:
+#   - name: "Coauthor Name"
+#     affiliation: "University Name"
+#     url: "https://example.com/profile"
+# venue:
+#  name: "Journal or publisher name"
+#  url: "https://doi.org/example"
+citation: "Lin, D., & Wachter, S. M. (2026). What Permitted Density Misses [Work in Progress]."
+#abstract: |
+#   Permitted density limits project size but does not determine project entry. We develop a microfounded model linking this distinction to housing production, supply elasticity, and equilibrium prices. The model identifies a benchmark in which permitted density is sufficient and establishes why it is not sufficient in general. Identical permitted density and current construction can conceal different supply responses; entry costs can also affect prices when permitted density is nonbinding. Cross-sectional comparisons assess whether the Wharton Residential Land Use Regulatory Index (WRLURI) adds price information beyond permitted density and market controls. Its contribution is evident in regional comparisons but not within-CBSA county comparisons. The paper identifies the economic information missing from permitted density and provides a framework for evaluating broader regulatory measures.
+#links:
+#  - { label: "SSRN", url: ""}
+# honors:
+#  - label: "Award name"
+#    url: "https://example.com/award"
+# presentations: [] # Items may also use label + url, as above.
+# media:
+#  - label: "News outlet"
+#    url: "https://example.com/article"
