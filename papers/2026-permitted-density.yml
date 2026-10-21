@@ -3,10 +3,8 @@ year: 2026
 category: "work-in-progress" # publication | working-paper | work-in-progress | dissertation | policy-report | unpublished-manuscript | pre-doctoral
 status: "Work in Progress"
 # sort_order: 1 # Optional; lower numbers appear first within a section.
-# authors:
-#   - name: "Coauthor Name"
-#     affiliation: "University Name"
-#     url: "https://example.com/profile"
+authors:
+  - { name: "Susan Wachter", affiliation: "University of Pennsylvania", url: "https://real-estate.wharton.upenn.edu/profile/wachter/" }
 # venue:
 #  name: "Journal or publisher name"
 #  url: "https://doi.org/example"
