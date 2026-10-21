@@ -9,7 +9,9 @@ permissions:
   contents: read
 jobs:
   audit:
-    runs-on: ubuntu-latest
+    # Keep the runner compatible with pinned Playwright 1.58.2; ubuntu-latest
+    # can move to an OS release that this browser installer does not support.
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v6
