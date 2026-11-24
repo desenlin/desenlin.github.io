@@ -9,8 +9,8 @@ on:
         type: boolean
         default: true
   schedule:
-    # Weekly on Monday, staggered across repositories (UTC).
-    - cron: "26 17 * * 1"
+    # Weekly live coverage for this site and the three teaching repositories (UTC).
+    - cron: "29 17 * * 1"
   workflow_run:
     workflows: ["Publish Quarto website"]
     types: [completed]
@@ -26,3 +26,17 @@ jobs:
     uses: ./.github/workflows/analytics-reusable.yml
     with:
       live: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_run' || (github.event_name == 'workflow_dispatch' && inputs.live) }}
+  teaching-sites:
+    name: Audit ${{ matrix.site }}
+    # Changes to the shared engine get source checks; weekly/manual runs add live checks.
+    # Each teaching repository retains its own post-deployment live audit.
+    if: github.event_name != 'workflow_run'
+    strategy:
+      fail-fast: false
+      matrix:
+        site: [site-feasibility-sandbox, FIN351, ame-quarter]
+    uses: ./.github/workflows/analytics-reusable.yml
+    with:
+      repository: desenlin/${{ matrix.site }}
+      artifact_name: analytics-audit-${{ matrix.site }}
+      live: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.live) }}

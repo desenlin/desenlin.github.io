@@ -2,6 +2,14 @@ name: Reusable analytics audit
 on:
   workflow_call:
     inputs:
+      repository:
+        description: Public repository to audit; empty uses the calling repository
+        type: string
+        default: ''
+      artifact_name:
+        description: Unique report name when auditing multiple repositories in one run
+        type: string
+        default: analytics-audit
       live:
         type: boolean
         default: false
@@ -16,6 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
+          repository: ${{ inputs.repository || github.repository }}
           path: site
           persist-credentials: false
       - name: Check out the shared audit engine
@@ -55,7 +64,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v7
         with:
-          name: analytics-audit
+          name: ${{ inputs.artifact_name }}
           path: |
             analytics-pages.json
             analytics-browser.json
