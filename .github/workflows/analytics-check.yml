@@ -8,9 +8,8 @@ on:
         description: Audit the deployed site as well as source coverage
         type: boolean
         default: true
-  schedule:
-    # Weekly live coverage for all six public desenlin repositories (UTC).
-    - cron: "29 17 * * 1"
+  # Weekly live coverage is scheduled by the private desenlin/site-maintenance
+  # coordinator. This workflow retains source, deployment, and manual checks.
   workflow_run:
     workflows: ["Publish Quarto website"]
     types: [completed]
@@ -25,10 +24,10 @@ jobs:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     uses: ./.github/workflows/analytics-reusable.yml
     with:
-      live: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_run' || (github.event_name == 'workflow_dispatch' && inputs.live) }}
+      live: ${{ github.event_name == 'workflow_run' || (github.event_name == 'workflow_dispatch' && inputs.live) }}
   public-sites:
     name: Audit ${{ matrix.site }}
-    # Changes to the shared engine get source checks; weekly/manual runs add live checks.
+    # Changes to the shared engine get source checks; manual runs add live checks.
     # Each site retains its own deployment/manual live audit.
     if: github.event_name != 'workflow_run'
     strategy:
@@ -39,4 +38,4 @@ jobs:
     with:
       repository: desenlin/${{ matrix.site }}
       artifact_name: analytics-audit-${{ matrix.site }}
-      live: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.live) }}
+      live: ${{ github.event_name == 'workflow_dispatch' && inputs.live }}

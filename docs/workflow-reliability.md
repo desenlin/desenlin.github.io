@@ -4,22 +4,24 @@ Audit date: November 24, 2026. Scope: all six public repositories currently owne
 
 The inventory covered 15 committed workflow YAML files and 19 GitHub workflow entries including managed Pages workflows. All 19 entries were active when checked. The latest analytics runs in all six repositories passed. An earlier failure at academic-site commit `d0e6f15` was a single HTTP 503 response from the published Sandbox page, followed by a successful retry; the subsequent `main` source and post-deployment audits also passed. That failure was separate from GitHub's inactivity notices.
 
-## Analytics coverage after consolidation
+## Analytics coverage after private-coordinator setup
+
+On November 24, 2026, weekly analytics execution moved to the private [desenlin/site-maintenance](https://github.com/desenlin/site-maintenance) repository. It calls the shared public engine against an explicit six-site matrix, with at most two sites running at once. The public repositories retain their local event-triggered checks.
 
 | Repository | Weekly source and live checks | Local checks retained |
 | --- | --- | --- |
-| `desenlin.github.io` | Central Monday workflow, 17:29 UTC | Push, pull request, deployment, manual |
-| `FIN351` | Central workflow, dedicated job and report | Push, pull request, page build, deployment, manual |
-| `FIN355` | Central workflow, dedicated job and report | Push, pull request, page build, deployment, manual |
-| `site-feasibility-sandbox` | Central workflow, dedicated job and report | Push, pull request, deployment, manual |
-| `ame-quarter` | Central workflow, dedicated job and report | Push, pull request, page build, deployment, manual |
-| `housing-market-lab` | Central workflow, dedicated job and report | Push, pull request, manual; deployment workflow also calls the live audit |
+| `desenlin.github.io` | Private coordinator, Monday 17:29 UTC | Push, pull request, deployment, manual |
+| `FIN351` | Private coordinator, dedicated job and report | Push, pull request, page build, deployment, manual |
+| `FIN355` | Private coordinator, dedicated job and report | Push, pull request, page build, deployment, manual |
+| `site-feasibility-sandbox` | Private coordinator, dedicated job and report | Push, pull request, deployment, manual |
+| `ame-quarter` | Private coordinator, dedicated job and report | Push, pull request, page build, deployment, manual |
+| `housing-market-lab` | Private coordinator, dedicated job and report | Push, pull request, manual; deployment workflow also calls the live audit |
 
 The shared auditor retries temporary serving/network errors with a bounded three-attempt policy. Persistent errors and tracking-validation failures still fail. Engine changes in academic-site PRs are tested using that PR revision; callers from other repositories use the published engine on `main`.
 
 ## Remaining schedules and recurrence risk
 
-After consolidation there are five committed workflows with a native schedule: the central analytics workflow and the following four Housing Market Lab workflows.
+The six public repositories now have four committed workflows with native schedules, all in Housing Market Lab. The analytics schedule is private.
 
 | Housing Market Lab workflow | Schedule (UTC) | Purpose |
 | --- | --- | --- |
@@ -30,7 +32,7 @@ After consolidation there are five committed workflows with a native schedule: t
 
 These data/security jobs need their own repository context, data files, and, in the ACS case, the configured Census credential. Their schedules remain in place. The market-brief workflow is triggered by completed data workflows rather than its own cron; it can therefore be affected if upstream scheduled refreshes stop.
 
-Every remaining public-repository schedule is subject to the same inactivity policy. Consolidation removes five separate analytics timers but cannot exempt the academic site or Housing Market Lab from GitHub's rule. Frequent successful audits do not ensure a repository remains active, as the original warnings demonstrated. Recent pipeline commits reduce practical exposure in Housing Market Lab but are not a reason to omit this failure mode from maintenance.
+Every remaining public-repository schedule is subject to the same inactivity policy. Weekly analytics execution no longer depends on activity in a public repository, because the private coordinator performs the audits itself. Frequent successful audits do not ensure a public repository remains active, as the original warnings demonstrated. Recent pipeline commits reduce practical exposure for Housing Market Lab's four remaining schedules but are not a reason to omit this failure mode from maintenance.
 
 ## What inactivity means
 
@@ -38,11 +40,11 @@ GitHub's documentation says scheduled workflows in public repositories are disab
 
 The policy is per repository. Updating `FIN351` does not keep `desenlin.github.io` active. No documented repository setting exempts a public native schedule from this rule. Scheduled execution can also be delayed or dropped during GitHub Actions load, independently of inactivity.
 
-## Option for sites that remain unchanged for months
+## Private analytics coordinator
 
-A small private coordinator can run the existing public reusable audit against an explicit matrix of the six public repositories. The 60-day rule documented for public schedules would no longer determine whether weekly analytics checks run. The coordinator only needs read access to public source; no cross-repository write token is needed for analytics. Each public repository can retain its event-triggered checks.
+A small private coordinator runs the existing public reusable audit against an explicit matrix of the six public repositories. The 60-day rule documented for public schedules no longer determines whether weekly analytics checks run. The coordinator only needs read access to public source; no cross-repository write token or Google credentials are needed for analytics. It executes on standard Linux runners rather than dispatching scheduled workflows in the public repositories.
 
-Private-runner compute and artifact storage count against the account's included allowance, whereas standard public runners remain free. Use short report retention and review the allowance before moving the schedule. This is an architectural option, not an already-created repository or scheduled service.
+The workflow runs weekly or manually, with two concurrent jobs and 14-day report retention. Source commits in the coordinator alone do not start audit runs. Weekly reports are private and named `analytics-audit-<repository-name>`. The academic site's own manual full audit remains available as a fallback. Private-runner compute and artifact storage count against the account's included allowance; service problems or allowance exhaustion can still prevent a run.
 
 Moving the four Housing Market Lab data/security workflows to an outside scheduler would be a separate change: it must preserve their schedules, inputs, Census credential use, concurrency, validation, and deployment behavior. Running a private analytics coordinator alone would not maintain those data jobs. An external dispatcher would need deliberately scoped Actions access; a read-only analytics coordinator does not.
 
