@@ -1,12 +1,14 @@
 """Check source coverage and discover published HTML pages; no GA credentials needed."""
-import argparse, fnmatch, json, os, re, sys
+import argparse, fnmatch, json, os, re, sys, time
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urlunsplit, unquote
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 ALLOWED_HOSTS={'desenlin.com','linguistics-teaching-labs.github.io'}
 SKIP_DIRS={'.git','node_modules','__pycache__','_site','dist','build','vendor'}
+RETRYABLE_HTTP_STATUS={429,500,502,503,504}
 
 class Page(HTMLParser):
     def __init__(self,text):
@@ -110,10 +112,20 @@ def source(root,cfg):
 
 def get_html(url):
     request=Request(url,headers={'User-Agent':'TeachingLabs-AnalyticsAudit/1.0 (GitHub Actions)'})
-    with urlopen(request,timeout=25) as r:
-        if urlsplit(r.url).hostname not in ALLOWED_HOSTS:raise ValueError('Unexpected redirect destination: '+r.url)
-        if 'text/html' not in r.headers.get('Content-Type',''):raise ValueError('Expected an HTML page.')
-        return r.read().decode('utf-8'),clean(r.url)
+    for attempt in range(3):
+        try:
+            with urlopen(request,timeout=25) as r:
+                if urlsplit(r.url).hostname not in ALLOWED_HOSTS:raise ValueError('Unexpected redirect destination: '+r.url)
+                if 'text/html' not in r.headers.get('Content-Type',''):raise ValueError('Expected an HTML page.')
+                return r.read().decode('utf-8'),clean(r.url)
+        except HTTPError as error:
+            if error.code not in RETRYABLE_HTTP_STATUS or attempt==2:raise
+            error.close()
+        except (URLError,TimeoutError,ConnectionError):
+            if attempt==2:raise
+        # Recover from short-lived serving/network errors; persistent failures
+        # still fail the audit, and invalid pages/tags are never retried away.
+        time.sleep(2*(attempt+1))
 
 def live(cfg,manifest):
     pending=list(manifest['urls']);seen=set();pages=[];failures=[]

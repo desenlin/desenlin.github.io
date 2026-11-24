@@ -9,7 +9,7 @@ on:
         type: boolean
         default: true
   schedule:
-    # Weekly live coverage for this site and the three teaching repositories (UTC).
+    # Weekly live coverage for all six public desenlin repositories (UTC).
     - cron: "29 17 * * 1"
   workflow_run:
     workflows: ["Publish Quarto website"]
@@ -26,15 +26,15 @@ jobs:
     uses: ./.github/workflows/analytics-reusable.yml
     with:
       live: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_run' || (github.event_name == 'workflow_dispatch' && inputs.live) }}
-  teaching-sites:
+  public-sites:
     name: Audit ${{ matrix.site }}
     # Changes to the shared engine get source checks; weekly/manual runs add live checks.
-    # Each teaching repository retains its own post-deployment live audit.
+    # Each site retains its own deployment/manual live audit.
     if: github.event_name != 'workflow_run'
     strategy:
       fail-fast: false
       matrix:
-        site: [site-feasibility-sandbox, FIN351, ame-quarter]
+        site: [site-feasibility-sandbox, FIN351, FIN355, ame-quarter, housing-market-lab]
     uses: ./.github/workflows/analytics-reusable.yml
     with:
       repository: desenlin/${{ matrix.site }}
