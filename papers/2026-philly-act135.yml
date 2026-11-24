@@ -1,0 +1,24 @@
+title: "Court Intervention and Reinvestment in Neglected Properties: Evidence from Philadelphia"
+year: 2026
+category: "working-paper" # publication | working-paper | work-in-progress | dissertation | policy-report | unpublished-manuscript | pre-doctoral
+status: "Working paper"
+# sort_order: 1 # Optional; lower numbers appear first within a section.
+# authors:
+#   - name: "Coauthor Name"
+#     affiliation: "University Name"
+#     url: "https://example.com/profile"
+# venue:
+#  name: "Journal or publisher name"
+#  url: "https://doi.org/example"
+citation: "Lin, D. (2026). Court Intervention and Reinvestment in Neglected Properties: Evidence from Philadelphia [Working paper]."
+abstract: |
+  Rehabilitation can stall when owners do not act and others lack authority to intervene. We examine whether seeking conservatorship under Pennsylvania’s Act 135, which allows courts to appoint third parties to organize rehabilitation, increases building reinvestment. We link court, permit, and deed records to track building work and property transfers before and after filing at 290 Philadelphia properties petitioned in 2013-2020. A matched difference-in-differences design with staggered filings uses nearby distressed properties without recorded petitions over the same dates to estimate how these outcomes would have changed without filing. We find that filing increases the probability of recorded completion of building work by 11.4 percentage points in the first year and 21.3 points in the second. The increase persists into the third year and is concentrated in work with permits issued on or after filing. Over three years, completed work at petitioned properties often occurs without a transfer, while nearly half of those with transfers have no recorded completion. Our findings suggest that court intervention can increase building reinvestment, while property transfers alone are an incomplete indicator of rehabilitation.
+#links:
+#  - { label: "SSRN", url: "TBD"}
+# honors:
+#  - label: "Award name"
+#    url: "https://example.com/award"
+# presentations: [] # Items may also use label + url, as above.
+# media:
+#  - label: "News outlet"
+#    url: "https://example.com/article"
