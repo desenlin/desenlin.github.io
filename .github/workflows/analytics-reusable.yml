@@ -31,7 +31,8 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: desenlin/desenlin.github.io
-          ref: main
+          # Exercise proposed engine changes in this repository's PRs too.
+          ref: ${{ github.repository == 'desenlin/desenlin.github.io' && github.sha || 'main' }}
           path: engine
           persist-credentials: false
       - uses: actions/setup-python@v6
